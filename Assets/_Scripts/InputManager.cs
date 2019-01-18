@@ -12,7 +12,7 @@ public class InputManager : MonoBehaviour
 
 	[SerializeField]
 	[Tooltip("The selected tile that will be placed in the scene")]
-	private TileBase selectedTile;
+	private TileObject selectedTile;
 
 	[Header("Debug Settings")]
 	[SerializeField]
@@ -50,7 +50,7 @@ public class InputManager : MonoBehaviour
 				Debug.Log(Input.mousePosition + "-> Clicked on coordinates " + clickedCell);
 
 				// Update the selected cell with the seleced tile
-				tilemap.SetTile(clickedCell, selectedTile);
+				tilemap.SetTile(clickedCell, selectedTile.TileBase);
 			}
 		}
 
@@ -59,5 +59,11 @@ public class InputManager : MonoBehaviour
 		{
 			mousePressStartedOnUI = false;
 		}
+	}
+
+	// Change the tile that is currently selected
+	public void SelectTile(TileObject tile)
+	{
+		selectedTile = tile;
 	}
 }
