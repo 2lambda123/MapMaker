@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+// This class is to create scriptable objects for each tile
+
 [CreateAssetMenu(fileName = "Tile", menuName = "Tile Scriptable Object", order = 1)]
 public class TileObject : ScriptableObject
 {

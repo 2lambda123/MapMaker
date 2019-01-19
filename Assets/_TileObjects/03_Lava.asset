@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fed13bb8245628b4ead01eca7b87c97a, type: 3}
-  m_Name: 02_Water
+  m_Name: 03_Lava
   m_EditorClassIdentifier: 
-  _tileName: Water
-  _tileId: 2
-  _tileBase: {fileID: 11400000, guid: e6489a4017b975c4f950099e16ed0764, type: 2}
+  _tileName: Lava
+  _tileId: 3
+  _tileBase: {fileID: 11400000, guid: 210d2202851357645921aa5d3b421e82, type: 2}

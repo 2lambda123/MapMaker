@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fed13bb8245628b4ead01eca7b87c97a, type: 3}
-  m_Name: 04_Sand
+  m_Name: 02_Water
   m_EditorClassIdentifier: 
-  _tileName: Sand
-  _tileId: 4
-  _tileBase: {fileID: 11400000, guid: 670d46b642234ba43a0b3b5780110ef4, type: 2}
+  _tileName: Water
+  _tileId: 2
+  _tileBase: {fileID: 11400000, guid: 7c114522a6a9b9949819d4992990ddb1, type: 2}

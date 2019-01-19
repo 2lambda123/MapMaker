@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.Tilemaps;
+
+// This class is used to manage the user's input
 
 public class InputManager : MonoBehaviour
 {
+	[Header("Tilemap Editor Variables")]
 	[SerializeField]
-	[Tooltip("The tilemap that will be edited in the scene")]
-	private Tilemap tilemap = null;
-
+	private TilemapManager tilemapManager;
 	[SerializeField]
 	[Tooltip("The selected tile that will be placed in the scene")]
 	private TileObject selectedTile;
@@ -27,6 +27,9 @@ public class InputManager : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		// Update the mouse indicator
+		tilemapManager.SetMouseIndicator();
+
 		// Set a flag wheneven the left-mouse button is pressed down while above the UI
 		if (Input.GetMouseButtonDown(0))
 		{
@@ -42,15 +45,11 @@ public class InputManager : MonoBehaviour
 			// Modify the tile map when the following conditions are satisfied:
 			// 1. The mouse cursor is NOT above a UI element
 			// 2. The mouse click did NOT begin on a UI element
-			if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI)
+			// 3. A tile has been selected
+			if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI && selectedTile != null)
 			{
-				// Calculate the position of the cell being clicked on
-				Vector3Int clickedCell = tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-
-				Debug.Log(Input.mousePosition + "-> Clicked on coordinates " + clickedCell);
-
-				// Update the selected cell with the seleced tile
-				tilemap.SetTile(clickedCell, selectedTile.TileBase);
+				// Update the tilemap via the tilemap manager
+				tilemapManager.SetTile(selectedTile);
 			}
 		}
 

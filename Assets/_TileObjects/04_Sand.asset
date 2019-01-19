@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fed13bb8245628b4ead01eca7b87c97a, type: 3}
-  m_Name: 03_Lava
+  m_Name: 04_Sand
   m_EditorClassIdentifier: 
-  _tileName: Lava
-  _tileId: 3
-  _tileBase: {fileID: 11400000, guid: c3d040968a2a19543ad3ac8d1e3eccbe, type: 2}
+  _tileName: Sand
+  _tileId: 4
+  _tileBase: {fileID: 11400000, guid: abc1c3746c77b7f4ea6135ce8215a560, type: 2}
