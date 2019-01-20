@@ -14,7 +14,7 @@ public class TileObject : ScriptableObject
 	[SerializeField]
 	private int _tileId;
 	[SerializeField]
-	private TileBase _tileBase;
+	private Tile _tile;
 
 	public string TileName
 	{
@@ -29,8 +29,8 @@ public class TileObject : ScriptableObject
 		}
 	}
 
-	public TileBase TileBase
+	public Tile Tile
 	{
-		get { return _tileBase; }
+		get { return _tile; }
 	}
 }

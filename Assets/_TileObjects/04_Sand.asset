@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tileName: Sand
   _tileId: 4
-  _tileBase: {fileID: 11400000, guid: abc1c3746c77b7f4ea6135ce8215a560, type: 2}
+  _tile: {fileID: 11400000, guid: abc1c3746c77b7f4ea6135ce8215a560, type: 2}

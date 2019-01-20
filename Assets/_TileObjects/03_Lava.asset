@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tileName: Lava
   _tileId: 3
-  _tileBase: {fileID: 11400000, guid: 210d2202851357645921aa5d3b421e82, type: 2}
+  _tile: {fileID: 11400000, guid: 210d2202851357645921aa5d3b421e82, type: 2}

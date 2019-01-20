@@ -58,11 +58,23 @@ public class TilemapManager : MonoBehaviour
 		// Check if the clicked cell is within the map bounds
 		if (clickedCell.x >= 0 && clickedCell.x < tilemapWidth && clickedCell.y >= 0 && clickedCell.y < tilemapHeight)
 		{
-			// Store the tile id in an array
-			tilemapArray[clickedCell.x, clickedCell.y] = tile.TileId;
+			if (tile != null)
+			{
+				// Store the tile id in an array
+				tilemapArray[clickedCell.x, clickedCell.y] = tile.TileId;
 
-			// Set the tile in the tilemap
-			tilemap.SetTile(clickedCell, tile.TileBase);
+				// Set the tile in the tilemap
+				tilemap.SetTile(clickedCell, tile.Tile);
+			}
+			else
+			{
+				// Store the tile id in an array
+				tilemapArray[clickedCell.x, clickedCell.y] = 0;
+
+				// Set the tile in the tilemap
+				tilemap.SetTile(clickedCell, null);
+			}
+
 		}
 		else
 		{
@@ -124,7 +136,15 @@ public class TilemapManager : MonoBehaviour
 		{
 			for (int j = 0; j < tilemapArray.GetLength(1); j++)
 			{
-				tilemap.SetTile(new Vector3Int(i, j, 0), FindTileObject(tilemapArray[i, j]).TileBase);
+				TileObject tileObject = FindTileObject(tilemapArray[i, j]);
+				if (tileObject.Tile != null)
+				{
+					tilemap.SetTile(new Vector3Int(i, j, 0), tileObject.Tile);
+				}
+				else
+				{
+					tilemap.SetTile(new Vector3Int(i, j, 0), null);
+				}
 			}
 		}
 	}
@@ -145,8 +165,8 @@ public class TilemapManager : MonoBehaviour
 				return tileObjects[i];
 			}
 		}
-		// TODO: Have it return a VOID tile if no match is found
-		return tileObjects[0];
+		// Return NULL if no tile object was found
+		return null;
 	}
 
 	// DEBUG FUNCTION REMOVE LATER

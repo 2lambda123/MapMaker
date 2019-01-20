@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tileName: Grass
   _tileId: 1
-  _tileBase: {fileID: 11400000, guid: daff4bdbd5b6091448edd83517362c67, type: 2}
+  _tile: {fileID: 11400000, guid: daff4bdbd5b6091448edd83517362c67, type: 2}

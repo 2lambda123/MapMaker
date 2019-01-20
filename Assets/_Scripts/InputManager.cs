@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 // This class is used to manage the user's input
 
@@ -11,12 +12,24 @@ public class InputManager : MonoBehaviour
 	[SerializeField]
 	private TilemapManager tilemapManager;
 	[SerializeField]
-	[Tooltip("The selected tile that will be placed in the scene")]
-	private TileObject selectedTile;
+	[Tooltip("The selected tile that will be placed in the scene using left mouse button")]
+	private TileObject leftSelectedTile;
+	[SerializeField]
+	private Image leftSelectedTileImage;
+	[SerializeField]
+	[Tooltip("The selected tile that will be placed in the scene using right mouse button")]
+	private TileObject rightSelectedTile;
+	[SerializeField]
+	private Image rightSelectedTileImage;
+
+	[Header("Sprites")]
+	[SerializeField]
+	private Sprite eraserSprite;
 
 	[Header("Debug Settings")]
 	[SerializeField]
 	private bool mousePressStartedOnUI;
+	[SerializeField]
 
 	// Start is called before the first frame update
 	void Start()
@@ -46,10 +59,24 @@ public class InputManager : MonoBehaviour
 			// 1. The mouse cursor is NOT above a UI element
 			// 2. The mouse click did NOT begin on a UI element
 			// 3. A tile has been selected
-			if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI && selectedTile != null)
+			if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI && leftSelectedTile != null)
 			{
 				// Update the tilemap via the tilemap manager
-				tilemapManager.SetTile(selectedTile);
+				tilemapManager.SetTile(leftSelectedTile);
+			}
+		}
+
+		// Whenever the right-mouse button is held down above a tile, erase the cell under the cursor depending on the selected tile
+		if (Input.GetMouseButton(1))
+		{
+			// Modify the tile map when the following conditions are satisfied:
+			// 1. The mouse cursor is NOT above a UI element
+			// 2. The mouse click did NOT begin on a UI element
+			// 3. A tile has been selected
+			if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI && leftSelectedTile != null)
+			{
+				// Update the tilemap via the tilemap manager
+				tilemapManager.SetTile(rightSelectedTile);
 			}
 		}
 
@@ -63,6 +90,31 @@ public class InputManager : MonoBehaviour
 	// Change the tile that is currently selected
 	public void SelectTile(TileObject tile)
 	{
-		selectedTile = tile;
+		// Set the left selected tile
+		leftSelectedTile = tile;
+
+		// Set the left selected tile image
+		if (tile.TileName.Equals("Eraser"))
+		{
+			leftSelectedTileImage.sprite = eraserSprite;
+		}
+		else
+		{
+			leftSelectedTileImage.sprite = tile.Tile.sprite;
+		}
+	}
+
+	// Swap the left and right selected tiles
+	public void SwapSelectedTiles()
+	{
+		// Swap the tile objects
+		TileObject temp = rightSelectedTile;
+		rightSelectedTile = leftSelectedTile;
+		leftSelectedTile = temp;
+
+		// Swap the images
+		Sprite tempImage = rightSelectedTileImage.sprite;
+		rightSelectedTileImage.sprite = leftSelectedTileImage.sprite;
+		leftSelectedTileImage.sprite = tempImage;
 	}
 }

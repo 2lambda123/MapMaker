@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tileName: Stone Path
   _tileId: 6
-  _tileBase: {fileID: 11400000, guid: 03fa11c68ecd47a4dbaaec635378d46c, type: 2}
+  _tile: {fileID: 11400000, guid: 03fa11c68ecd47a4dbaaec635378d46c, type: 2}
