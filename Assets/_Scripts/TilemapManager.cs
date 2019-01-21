@@ -9,17 +9,17 @@ using UnityEngine.EventSystems;
 public class TilemapManager : MonoBehaviour
 {
 	[Header("Tilemap Parameters")]
-	[SerializeField]
 	[Tooltip("The tilemap that will be edited in the scene")]
-	private Tilemap tilemap = null;
+	[SerializeField]
+	private Tilemap tilemap;
 	[SerializeField]
 	private int tilemapHeight;
 	[SerializeField]
 	private int tilemapWidth;
 
 	[Header("Mouse Indicator Parameters")]
-	[SerializeField]
 	[Tooltip("The tilemap that will be used to indicate which tile will be editted")]
+	[SerializeField]
 	private Tilemap indicatorTilemap;
 	[SerializeField]
 	private TileBase mouseIndicatorTile;
