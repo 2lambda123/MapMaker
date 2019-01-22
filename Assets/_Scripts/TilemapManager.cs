@@ -11,24 +11,24 @@ public class TilemapManager : MonoBehaviour
 	[Header("Tilemap Parameters")]
 	[Tooltip("The tilemap that will be edited in the scene")]
 	[SerializeField]
-	private Tilemap tilemap;
+	private Tilemap tilemap = default;
 	[SerializeField]
-	private int tilemapHeight;
+	private int tilemapHeight = default;
 	[SerializeField]
-	private int tilemapWidth;
+	private int tilemapWidth = default;
 
 	[Header("Mouse Indicator Parameters")]
 	[Tooltip("The tilemap that will be used to indicate which tile will be editted")]
 	[SerializeField]
-	private Tilemap indicatorTilemap;
+	private Tilemap indicatorTilemap = default;
 	[SerializeField]
-	private TileBase mouseIndicatorTile;
+	private TileBase mouseIndicatorTile = default;
 	[SerializeField]
-	private Vector3Int activeMouseIndicatorPosition;
+	private Vector3Int activeMouseIndicatorPosition = default;
 
 	[Header("Tile Objects")]
 	[SerializeField]
-	private List<TileObject> tileObjects;
+	private List<TileObject> tileObjects = default;
 
 	// Note: Imagine flipping this array vertically to see what it would look like in the tilemap editor
 	private int[,] tilemapArray;

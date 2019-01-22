@@ -10,11 +10,11 @@ public class TileObject : ScriptableObject
 {
 	[Header("Tile Parameters")]
 	[SerializeField]
-	private string _tileName;
+	private string _tileName = default;
 	[SerializeField]
-	private int _tileId;
+	private int _tileId = default;
 	[SerializeField]
-	private Tile _tile;
+	private Tile _tile = default;
 
 	public string TileName
 	{

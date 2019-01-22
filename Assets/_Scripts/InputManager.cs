@@ -10,26 +10,25 @@ public class InputManager : MonoBehaviour
 {
 	[Header("Tilemap Editor Variables")]
 	[SerializeField]
-	private TilemapManager tilemapManager;
+	private TilemapManager tilemapManager = default;
 	[Tooltip("The selected tile that will be placed in the scene using left mouse button")]
 	[SerializeField]
-	private TileObject leftSelectedTile;
+	private TileObject leftSelectedTile = default;
 	[SerializeField]
-	private Image leftSelectedTileImage;
+	private Image leftSelectedTileImage = default;
 	[Tooltip("The selected tile that will be placed in the scene using right mouse button")]
 	[SerializeField]
-	private TileObject rightSelectedTile;
+	private TileObject rightSelectedTile = default;
 	[SerializeField]
-	private Image rightSelectedTileImage;
+	private Image rightSelectedTileImage = default;
 
 	[Header("Sprites")]
 	[SerializeField]
-	private Sprite eraserSprite;
+	private Sprite eraserSprite = default;
 
 	[Header("Debug Settings")]
 	[SerializeField]
-	private bool mousePressStartedOnUI;
-	[SerializeField]
+	private bool mousePressStartedOnUI = default;
 
 	// Start is called before the first frame update
 	void Start()
