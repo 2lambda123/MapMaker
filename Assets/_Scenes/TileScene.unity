@@ -1276,7 +1276,7 @@ GameObject:
   - component: {fileID: 940844352}
   - component: {fileID: 940844351}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2336,7 +2336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000009868017, y: -0.000025832325}
+  m_AnchoredPosition: {x: 0.000009868017, y: -0.000026124137}
   m_SizeDelta: {x: -0.0000152199, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1334385374
@@ -2832,9 +2832,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4b1dca79f8d3b42b88e8f5f06499b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilemap: {fileID: 1009949230}
-  tilemapHeight: 0
-  tilemapWidth: 0
+  canvasTilemap: {fileID: 1009949230}
+  canvasHeight: 0
+  canvasWidth: 0
   indicatorTilemap: {fileID: 1955627816}
   mouseIndicatorTile: {fileID: 11400000, guid: 5095c744761b0674cbb0c23e2df2a679, type: 2}
   activeMouseIndicatorPosition: {x: 0, y: 0, z: 0}

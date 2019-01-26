@@ -6,16 +6,16 @@ using UnityEngine.EventSystems;
 
 // This class is used to manage the tilemap present in the scene
 
-public class TilemapManager : MonoBehaviour
+public class CanvasManager : MonoBehaviour
 {
 	[Header("Tilemap Parameters")]
 	[Tooltip("The tilemap that will be edited in the scene")]
 	[SerializeField]
-	private Tilemap tilemap = default;
+	private Tilemap canvasTilemap = default;
 	[SerializeField]
-	private int tilemapHeight = default;
+	private int canvasHeight = default;
 	[SerializeField]
-	private int tilemapWidth = default;
+	private int canvasWidth = default;
 
 	[Header("Mouse Indicator Parameters")]
 	[Tooltip("The tilemap that will be used to indicate which tile will be editted")]
@@ -37,26 +37,26 @@ public class TilemapManager : MonoBehaviour
 	void Start()
 	{
 		// TODO: Set these player preferences from the start menu to adjust the bounds of the tile map
-		PlayerPrefs.SetInt("Tilemap Height", 10);
-		PlayerPrefs.SetInt("Tilemap Width", 10);
+		PlayerPrefs.SetInt("Canvas Height", 10);
+		PlayerPrefs.SetInt("Canvas Width", 10);
 
 		// Retrieve the height and width from the player preferences
-		tilemapHeight = PlayerPrefs.GetInt("Tilemap Height");
-		tilemapWidth = PlayerPrefs.GetInt("Tilemap Width");
+		canvasHeight = PlayerPrefs.GetInt("Canvas Height");
+		canvasWidth = PlayerPrefs.GetInt("Canvas Width");
 
 		// Initialize the tilemap array
-		tilemapArray = new int[tilemapWidth, tilemapHeight];
+		tilemapArray = new int[canvasWidth, canvasHeight];
 	}
 
 	// Sets a tile on the tilemap
 	public void SetTile(TileObject tile)
 	{
 		// Calculate the position of the cell being clicked on
-		Vector3Int clickedCell = tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+		Vector3Int clickedCell = canvasTilemap.WorldToCell(Camera.main.ScreenToWorldPoint(Input.mousePosition));
 		// Debug.Log(Input.mousePosition + "-> Clicked on coordinates " + clickedCell);
 
 		// Check if the clicked cell is within the map bounds
-		if (clickedCell.x >= 0 && clickedCell.x < tilemapWidth && clickedCell.y >= 0 && clickedCell.y < tilemapHeight)
+		if (clickedCell.x >= 0 && clickedCell.x < canvasWidth && clickedCell.y >= 0 && clickedCell.y < canvasHeight)
 		{
 			if (tile != null)
 			{
@@ -64,7 +64,7 @@ public class TilemapManager : MonoBehaviour
 				tilemapArray[clickedCell.x, clickedCell.y] = tile.TileId;
 
 				// Set the tile in the tilemap
-				tilemap.SetTile(clickedCell, tile.Tile);
+				canvasTilemap.SetTile(clickedCell, tile.Tile);
 			}
 			else
 			{
@@ -72,7 +72,7 @@ public class TilemapManager : MonoBehaviour
 				tilemapArray[clickedCell.x, clickedCell.y] = 0;
 
 				// Set the tile in the tilemap
-				tilemap.SetTile(clickedCell, null);
+				canvasTilemap.SetTile(clickedCell, null);
 			}
 
 		}
@@ -86,7 +86,7 @@ public class TilemapManager : MonoBehaviour
 	public void SetMouseIndicator()
 	{
 		// Calculate the position of the cell being clicked on
-		Vector3Int hoveredCell = tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+		Vector3Int hoveredCell = canvasTilemap.WorldToCell(Camera.main.ScreenToWorldPoint(Input.mousePosition));
 		// Debug.Log(Input.mousePosition + "-> Clicked on coordinates " + clickedCell);
 
 
@@ -102,7 +102,7 @@ public class TilemapManager : MonoBehaviour
 		// Do nothing if there is no need to move the mouse indicator
 		else if (hoveredCell == activeMouseIndicatorPosition) { }
 		// Move the mouse indicator (Check if the cell below the mouse is within the map bounds, the mouse is hovering over a different cell, and the mouse is not over a UI element)
-		else if (hoveredCell.x >= 0 && hoveredCell.x < tilemapWidth && hoveredCell.y >= 0 && hoveredCell.y < tilemapHeight)
+		else if (hoveredCell.x >= 0 && hoveredCell.x < canvasWidth && hoveredCell.y >= 0 && hoveredCell.y < canvasHeight)
 		{
 			// Remove the previous mouse indicator when the mouse enters another cell
 			indicatorTilemap.SetTile(activeMouseIndicatorPosition, null);
@@ -139,11 +139,11 @@ public class TilemapManager : MonoBehaviour
 				TileObject tileObject = FindTileObject(tilemapArray[i, j]);
 				if (tileObject.Tile != null)
 				{
-					tilemap.SetTile(new Vector3Int(i, j, 0), tileObject.Tile);
+					canvasTilemap.SetTile(new Vector3Int(i, j, 0), tileObject.Tile);
 				}
 				else
 				{
-					tilemap.SetTile(new Vector3Int(i, j, 0), null);
+					canvasTilemap.SetTile(new Vector3Int(i, j, 0), null);
 				}
 			}
 		}
