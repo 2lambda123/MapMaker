@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fed13bb8245628b4ead01eca7b87c97a, type: 3}
-  m_Name: 14_SandstoneBrick
+  m_Name: 24_MetalTileB
   m_EditorClassIdentifier: 
-  _tileName: Sandstone Brick
-  _tileId: 14
-  _tile: {fileID: 11400000, guid: 53b570a948f71f447899e02ce9f8447d, type: 2}
+  _tileName: Metal Tile B
+  _tileId: 24
+  _tile: {fileID: 11400000, guid: a2873ce65791c314681a9c39646d724f, type: 2}
