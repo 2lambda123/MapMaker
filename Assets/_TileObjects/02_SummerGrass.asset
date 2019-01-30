@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed13bb8245628b4ead01eca7b87c97a, type: 3}
+  m_Name: 02_SummerGrass
+  m_EditorClassIdentifier: 
+  _tileName: Summer Grass
+  _tileId: 2
+  _tile: {fileID: 11400000, guid: f321c6d4d8443ab41880a43c72b5c4f1, type: 2}
