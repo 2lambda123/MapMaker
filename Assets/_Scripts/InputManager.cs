@@ -10,7 +10,7 @@ public class InputManager : MonoBehaviour
 {
 	[Header("Tilemap Editor Variables")]
 	[SerializeField]
-	private TilemapManager tilemapManager = default;
+	private CanvasManager tilemapManager = default;
 	[Tooltip("The selected tile that will be placed in the scene using left mouse button")]
 	[SerializeField]
 	private TileObject leftSelectedTile = default;
