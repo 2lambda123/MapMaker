@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PatternedSandstone_3
+  m_Name: patternedSandstone_3
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300000, guid: 5657f230a06a2714d8c5c017df53d194, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
