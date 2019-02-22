@@ -1,43 +1,52 @@
-﻿using System.Collections;
+﻿/*
+ * Nate Brewer
+ * CECS 550
+ * Team Project - Tous' Tiles
+ * 2019-02-21
+ * 
+ * Animation for open/close of Tile Selection Menu (right side)
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TileSelectorAnimMgn : MonoBehaviour
 {
-    Animator anim;
+    Animator anim1;
 
     //variable for checking if the menu is open 
-    private bool isOpen = true;
+    private bool isOpen1 = true;
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
+        anim1 = GetComponent<Animator>();
     }
 
     public void tileSelectorTab()
     {
         //open if closed
-        if (!isOpen)
+        if (!isOpen1)
         {
-            isOpen = true;
-            slideIn();
+            isOpen1 = true;
+            slideIn1();
         }
         //close if opened
-        else if (isOpen)
+        else if (isOpen1)
         {
-            isOpen = false;
-            slideOut();
+            isOpen1 = false;
+            slideOut1();
         }
     }
 
-    public void slideOut()
+    public void slideOut1()
     {
-        anim.SetTrigger("SlideOut");
+        anim1.SetTrigger("SlideOut");
     }
 
-    public void slideIn()
+    public void slideIn1()
     {
-        anim.SetTrigger("SlideIn");
+        anim1.SetTrigger("SlideIn");
     }
 }
 
