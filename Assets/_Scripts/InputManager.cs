@@ -8,6 +8,10 @@ using UnityEngine.UI;
 
 public class InputManager : MonoBehaviour
 {
+	[Header("Editor Parameters")]
+	[SerializeField]
+	private string editorMode = "PAINT";
+
 	[Header("Tilemap Editor Variables")]
 	[SerializeField]
 	private CanvasManager tilemapManager = default;
@@ -22,9 +26,11 @@ public class InputManager : MonoBehaviour
 	[SerializeField]
 	private Image rightSelectedTileImage = default;
 
-	[Header("Sprites")]
+	[Header("Erase Mode")]
 	[SerializeField]
 	private Sprite eraserSprite = default;
+	[SerializeField]
+	private TileObject eraseTile = default;
 
 	[Header("Debug Settings")]
 	[SerializeField]
@@ -39,50 +45,86 @@ public class InputManager : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		// Update the mouse indicator
-		tilemapManager.SetMouseIndicator();
-
-		// Set a flag wheneven the left-mouse button is pressed down while above the UI
-		if (Input.GetMouseButtonDown(0))
+		if (editorMode.Equals("PAINT"))
 		{
-			if (EventSystem.current.IsPointerOverGameObject())
+			// Update the mouse indicator
+			tilemapManager.SetMouseIndicator();
+
+			// Set a flag wheneven the left-mouse button is pressed down while above the UI
+			if (Input.GetMouseButtonDown(0))
 			{
-				mousePressStartedOnUI = true;
+				if (EventSystem.current.IsPointerOverGameObject())
+				{
+					mousePressStartedOnUI = true;
+				}
+			}
+
+			// Whenever the left-mouse button is held down above a tile, update the cell under the cursor depending on the primary tile
+			if (Input.GetMouseButton(0))
+			{
+				// Modify the tile map when the following conditions are satisfied:
+				// 1. The mouse cursor is NOT above a UI element
+				// 2. The mouse click did NOT begin on a UI element
+				// 3. A tile has been selected
+				if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI && leftSelectedTile != null)
+				{
+					// Update the tilemap via the tilemap manager
+					tilemapManager.SetTile(leftSelectedTile);
+				}
+			}
+
+			// Whenever the right-mouse button is held down above a tile, update the cell under the cursor depending on the secondary tile
+			if (Input.GetMouseButton(1))
+			{
+				// Modify the tile map when the following conditions are satisfied:
+				// 1. The mouse cursor is NOT above a UI element
+				// 2. The mouse click did NOT begin on a UI element
+				// 3. A tile has been selected
+				if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI && leftSelectedTile != null)
+				{
+					// Update the tilemap via the tilemap manager
+					tilemapManager.SetTile(rightSelectedTile);
+				}
+			}
+
+			// Release all flags wheneven the left-mouse button is released
+			if (Input.GetMouseButtonUp(0))
+			{
+				mousePressStartedOnUI = false;
 			}
 		}
-
-		// Whenever the left-mouse button is held down above a tile, update the cell under the cursor depending on the selected tile
-		if (Input.GetMouseButton(0))
+		else if (editorMode.Equals("ERASE"))
 		{
-			// Modify the tile map when the following conditions are satisfied:
-			// 1. The mouse cursor is NOT above a UI element
-			// 2. The mouse click did NOT begin on a UI element
-			// 3. A tile has been selected
-			if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI && leftSelectedTile != null)
+			// Update the mouse indicator
+			tilemapManager.SetMouseIndicator();
+
+			// Set a flag wheneven the left-mouse button is pressed down while above the UI
+			if (Input.GetMouseButtonDown(0))
 			{
-				// Update the tilemap via the tilemap manager
-				tilemapManager.SetTile(leftSelectedTile);
+				if (EventSystem.current.IsPointerOverGameObject())
+				{
+					mousePressStartedOnUI = true;
+				}
 			}
-		}
 
-		// Whenever the right-mouse button is held down above a tile, erase the cell under the cursor depending on the selected tile
-		if (Input.GetMouseButton(1))
-		{
-			// Modify the tile map when the following conditions are satisfied:
-			// 1. The mouse cursor is NOT above a UI element
-			// 2. The mouse click did NOT begin on a UI element
-			// 3. A tile has been selected
-			if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI && leftSelectedTile != null)
+			// Whenever the left-mouse button is held down above a tile, erase the cell under the cursor
+			if (Input.GetMouseButton(0) || Input.GetMouseButton(1))
 			{
-				// Update the tilemap via the tilemap manager
-				tilemapManager.SetTile(rightSelectedTile);
+				// Modify the tile map when the following conditions are satisfied:
+				// 1. The mouse cursor is NOT above a UI element
+				// 2. The mouse click did NOT begin on a UI element
+				if (!EventSystem.current.IsPointerOverGameObject() && !mousePressStartedOnUI)
+				{
+					// Update the tilemap via the tilemap manager
+					tilemapManager.SetTile(eraseTile);
+				}
 			}
-		}
 
-		// Release all flags wheneven the left-mouse button is released
-		if (Input.GetMouseButtonUp(0))
-		{
-			mousePressStartedOnUI = false;
+			// Release all flags wheneven the left-mouse button is released
+			if (Input.GetMouseButtonUp(0))
+			{
+				mousePressStartedOnUI = false;
+			}
 		}
 	}
 
@@ -115,5 +157,11 @@ public class InputManager : MonoBehaviour
 		Sprite tempImage = rightSelectedTileImage.sprite;
 		rightSelectedTileImage.sprite = leftSelectedTileImage.sprite;
 		leftSelectedTileImage.sprite = tempImage;
+	}
+
+	public string EditorMode
+	{
+		get { return editorMode; }
+		set { editorMode = value; }
 	}
 }

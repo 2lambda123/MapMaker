@@ -53,15 +53,13 @@ public class CanvasManager : MonoBehaviour
 	{
 		// Calculate the position of the cell being clicked on
 		Vector3Int clickedCell = canvasTilemap.WorldToCell(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-		Debug.Log(Input.mousePosition + "-> Clicked on coordinates " + clickedCell);
+		// Debug.Log(Input.mousePosition + "-> Clicked on coordinates " + clickedCell);
 
 		// Check if the clicked cell is within the map bounds
 		if (clickedCell.x >= 0 && clickedCell.x < canvasWidth && clickedCell.y >= 0 && clickedCell.y < canvasHeight)
 		{
 			if (tile != null)
 			{
-				Debug.Log("Adding Tile");
-
 				// Store the tile id in an array
 				tilemapArray[clickedCell.x, clickedCell.y] = tile.TileId;
 
@@ -80,7 +78,7 @@ public class CanvasManager : MonoBehaviour
 		}
 		else
 		{
-			Debug.Log("Clicked Cell -> Out of Bounds");
+			// Debug.Log("Clicked Cell -> Out of Bounds");
 		}
 	}
 
