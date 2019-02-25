@@ -9,4 +9,4 @@ Team Members:
 - Kelly
 - Tyler
 
-Tile Assets from Kenny NL
+"RPG Urban Pack", "Roguelike Characters", "Roguelike Modern City", "Roguelike Cave & Dungeons", "Roguelike/RPG Pack" from KenneyNL (https://www.kenney.nl/)
