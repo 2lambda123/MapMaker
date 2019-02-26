@@ -546,7 +546,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'MODE: ???'
+  m_text: SELECT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16.55
+  m_fontSize: 6.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -615,12 +615,12 @@ MonoBehaviour:
   m_margin: {x: 10, y: 10, z: 10, w: 10}
   m_textInfo:
     textComponent: {fileID: 51144075}
-    characterCount: 9
+    characterCount: 6
     spriteCount: 0
-    spaceCount: 1
+    spaceCount: 0
     wordCount: 1
     linkCount: 0
-    lineCount: 2
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 17.4
+  m_fontSize: 9.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 19
+  m_fontSize: 9.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2068,7 +2068,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 263831454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196299}
+        m_MethodName: set_EditorMode
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PAINT
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &263831454
@@ -2276,7 +2287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: 0.049804688}
+  m_AnchoredPosition: {x: -100.00003, y: -0.005004883}
   m_SizeDelta: {x: 200, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346434052
@@ -2288,7 +2299,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 346434050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9f65a9c30070794ba28067ff83dc92a, type: 3}
+  m_Script: {fileID: 11500000, guid: 43134378f3ae4ea4497b7ac6c30610a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &346434053
@@ -2301,7 +2312,7 @@ Animator:
   m_GameObject: {fileID: 346434050}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0bcde6efa95d2dc458ae1935fe427802, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8c4f180b1d0298c47be3036cc39df06e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2415,7 +2426,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -2548,7 +2559,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 21.1
+  m_fontSize: 10.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4083,7 +4094,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 621884600}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196302}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3281023610417474330, guid: f671d394f2c247b4d91c051b212911bf,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &621884600
@@ -6179,7 +6202,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16.1
+  m_fontSize: 7.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7317,7 +7340,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1524769759}
   m_HandleRect: {fileID: 1524769758}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.9999999
   m_Size: 0.43553013
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -7665,7 +7688,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7874be78d23811640b2414c7d4aa60c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b192a683f03cbf46a42b4c3837e4e1b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7848,7 +7871,7 @@ GameObject:
   - component: {fileID: 1190964090}
   - component: {fileID: 1190964089}
   m_Layer: 5
-  m_Name: ModeButton
+  m_Name: SelectButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7894,9 +7917,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.254539, g: 0.5565192, b: 0.8301887, a: 1}
-    m_HighlightedColor: {r: 0.22352943, g: 0.48627454, b: 0.7254902, a: 1}
-    m_PressedColor: {r: 0.1866742, g: 0.40521967, b: 0.601, a: 1}
+    m_NormalColor: {r: 0.49411768, g: 0.49411768, b: 0.49411768, a: 1}
+    m_HighlightedColor: {r: 0.42700002, g: 0.42700002, b: 0.42700002, a: 1}
+    m_PressedColor: {r: 0.385, g: 0.385, b: 0.385, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -7913,7 +7936,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1190964090}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196299}
+        m_MethodName: set_EditorMode
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SELECT
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1190964090
@@ -9563,7 +9597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1334385374
@@ -10171,7 +10205,7 @@ GameObject:
   - component: {fileID: 1485852039}
   - component: {fileID: 1485852038}
   m_Layer: 5
-  m_Name: NatureContent
+  m_Name: Nature_Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10339,7 +10373,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 17.4
+  m_fontSize: 10.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11417,7 +11451,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 17.4
+  m_fontSize: 9.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11954,7 +11988,7 @@ GameObject:
   - component: {fileID: 1667612603}
   - component: {fileID: 1667612602}
   m_Layer: 5
-  m_Name: CharactersContent
+  m_Name: Characters_Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12433,15 +12467,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1930196299}
-        m_MethodName: SelectTile
-        m_Mode: 2
+        m_MethodName: set_EditorMode
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f852d019b9877e44fa203350a1c42bd1,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: TileObject, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: ERASE
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -13299,6 +13332,7 @@ GameObject:
   - component: {fileID: 1930196300}
   - component: {fileID: 1930196299}
   - component: {fileID: 1930196301}
+  - component: {fileID: 1930196302}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -13318,12 +13352,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae167049ac2c0a4dbf63c00105f6fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  editorMode: PAINT
   tilemapManager: {fileID: 1930196301}
   leftSelectedTile: {fileID: 11400000, guid: edea934fc7e7f75409136a88bba4baa1, type: 2}
   leftSelectedTileImage: {fileID: 1531180828}
-  rightSelectedTile: {fileID: 11400000, guid: f852d019b9877e44fa203350a1c42bd1, type: 2}
+  rightSelectedTile: {fileID: 11400000, guid: 0c3da6a597fd2f049be9260f6eb59968, type: 2}
   rightSelectedTileImage: {fileID: 1155174068}
   eraserSprite: {fileID: 21300000, guid: 7874be78d23811640b2414c7d4aa60c6, type: 3}
+  eraseTile: {fileID: 11400000, guid: f852d019b9877e44fa203350a1c42bd1, type: 2}
   mousePressStartedOnUI: 0
 --- !u!4 &1930196300
 Transform:
@@ -13402,6 +13438,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e11b7e14d3e17eb41a9eac196acf2295, type: 2}
   - {fileID: 11400000, guid: a381ffd5e6a0d3d4c84199226b5eb30a, type: 2}
   - {fileID: 11400000, guid: 610b5bed0190ef44287de5309020bceb, type: 2}
+--- !u!114 &1930196302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930196298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fdfb671c299df4438e7312e62c81a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miniatures: []
 --- !u!1 &1930517775
 GameObject:
   m_ObjectHideFlags: 0
@@ -13830,7 +13879,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1968566952}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 346434052}
+        m_MethodName: miniaturesSelectorTab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1968566952
@@ -15050,8 +15110,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1475596305}
   m_HandleRect: {fileID: 1475596304}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.78778636
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
