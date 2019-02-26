@@ -4,7 +4,7 @@
  * Team Project - Tous' Tiles
  * 2019-02-21
  * 
- * Animation for open/close of Tile Selection Menu (right side)
+ * Animation for open/close of Tile Selection Menu (left side)
  */
 
 using System.Collections;
