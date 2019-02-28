@@ -43,6 +43,8 @@ public class MainMenuBehavior : MonoBehaviour
     public void Load()
     {
         // TODO: Hook into Stephen's stuff later
+        SaveMenu loader = new SaveMenu();
+        loader.Load();
         Application.LoadLevel("_scenes/TileScene");
     }
 
