@@ -10,3 +10,5 @@ Team Members:
 - Tyler
 
 "RPG Urban Pack", "Roguelike Characters", "Roguelike Modern City", "Roguelike Cave & Dungeons", "Roguelike/RPG Pack" from KenneyNL (https://www.kenney.nl/)
+
+"StandaloneFileBrowser" from https://github.com/gkngkc/UnityStandaloneFileBrowser
