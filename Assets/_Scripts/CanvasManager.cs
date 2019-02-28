@@ -36,10 +36,6 @@ public class CanvasManager : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		// TODO: Set these player preferences from the start menu to adjust the bounds of the tile map
-		PlayerPrefs.SetInt("Canvas Height", 10);
-		PlayerPrefs.SetInt("Canvas Width", 10);
-
 		// Retrieve the height and width from the player preferences
 		canvasHeight = PlayerPrefs.GetInt("Canvas Height");
 		canvasWidth = PlayerPrefs.GetInt("Canvas Width");

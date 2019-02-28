@@ -15,6 +15,31 @@ public class MainMenuBehavior : MonoBehaviour
     void Update()
     { }
 
+    private void New(int size)
+    {
+        if (size <= 0) {
+            throw new System.ArgumentException("Size must be larger than zero");
+        }
+        PlayerPrefs.SetInt("Canvas Height", size);
+        PlayerPrefs.SetInt("Canvas Width", size);
+        Application.LoadLevel("_scenes/TileScene");
+    }
+
+    public void New_Small()
+    {
+        New(64);
+    }
+
+    public void New_Medium()
+    {
+        New(256);
+    }
+
+    public void New_Large()
+    {
+        New(1024);
+    }
+
     public void Load()
     {
         // TODO: Hook into Stephen's stuff later

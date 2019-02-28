@@ -19,7 +19,7 @@
 0	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
 0	Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json	/^  "keywords": [ "TextMeshPro", "TextMesh Pro", "Text", "SDF" ],$/;"	s	array:keywords
 0	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	n	array:m_ExpandedPrefabGameObjectFileIDs
-0	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+0	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 1	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 1	Library/PackageCache/com.unity.ads@2.0.8/package.json	/^        "unity"$/;"	s	array:keywords
 1	Library/PackageCache/com.unity.analytics@3.2.2/package.json	/^        "unity"$/;"	s	array:keywords
@@ -28,11 +28,11 @@
 1	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 1	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
 1	Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json	/^  "keywords": [ "TextMeshPro", "TextMesh Pro", "Text", "SDF" ],$/;"	s	array:keywords
-1	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+1	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 10	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 10	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 10	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-10	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+10	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 100	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 101	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^		{$/;"	o	array:assetRecords
 102	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -46,7 +46,7 @@
 11	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 11	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 11	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-11	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+11	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 110	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 111	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^		{$/;"	o	array:assetRecords
 112	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -60,7 +60,7 @@
 12	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 12	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 12	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-12	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+12	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 120	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 121	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^		{$/;"	o	array:assetRecords
 122	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -74,113 +74,132 @@
 13	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 13	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 13	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-13	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+13	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 14	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 14	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 14	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-14	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+14	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 15	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 15	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 15	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-15	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+15	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 16	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 16	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-16	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+16	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 17	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 17	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-17	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+17	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 18	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 18	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-18	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+18	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 19	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 19	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-19	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+19	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 2	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 2	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^    "teams",$/;"	s	array:keywords
 2	Library/PackageCache/com.unity.purchasing@2.0.3/package.json	/^    "unity"$/;"	s	array:keywords
 2	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 2	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
 2	Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json	/^  "keywords": [ "TextMeshPro", "TextMesh Pro", "Text", "SDF" ],$/;"	s	array:keywords
-2	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+2	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 20	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 20	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-20	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+20	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 21	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 21	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-21	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+21	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 22	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 22	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-22	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+22	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 23	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 23	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-23	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+23	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 24	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 24	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-24	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+24	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 25	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 25	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-25	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+25	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 26	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 26	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-26	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+26	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 27	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 27	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-27	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+27	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 28	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 28	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-28	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+28	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 29	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 29	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-29	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+29	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 3	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 3	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^    "team",$/;"	s	array:keywords
 3	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 3	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
 3	Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json	/^  "keywords": [ "TextMeshPro", "TextMesh Pro", "Text", "SDF" ],$/;"	s	array:keywords
-3	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+3	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 30	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 30	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-30	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+30	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 31	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 31	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-31	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+31	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 32	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 32	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-32	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+32	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 33	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 33	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-33	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+33	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 34	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 34	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
+34	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 35	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 35	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
+35	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 36	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+36	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 37	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+37	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 38	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+38	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 39	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+39	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 4	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 4	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^    "cloud",$/;"	s	array:keywords
 4	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 4	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-4	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+4	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 40	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+40	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 41	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+41	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 42	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+42	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 43	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+43	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 44	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+44	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 45	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+45	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 46	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+46	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 47	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+47	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 48	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+48	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 49	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+49	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 5	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 5	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^    "backup"$/;"	s	array:keywords
 5	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 5	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-5	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+5	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 50	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+50	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 51	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+51	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 52	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
+52	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 53	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 54	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 55	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -191,7 +210,7 @@
 6	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 6	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 6	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-6	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+6	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 60	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 61	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 62	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -205,7 +224,7 @@
 7	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 7	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 7	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-7	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+7	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 70	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 71	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 72	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -219,7 +238,7 @@
 8	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 8	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 8	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-8	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+8	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 80	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 81	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 82	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -233,7 +252,7 @@
 9	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 9	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 9	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-9	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
+9	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 90	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 91	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 92	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -1583,6 +1602,10 @@ Name	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_Font
 NameLabel	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageItem.cs	/^        private Label NameLabel { get { return root.Q<Label>("packageName"); } }$/;"	p	class:UnityEditor.PackageManager.UI.PackageItem
 Name_ReturnsExpectedValue	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Services/Packages/PackageTests.cs	/^        public void Name_ReturnsExpectedValue()$/;"	m	class:UnityEditor.PackageManager.UI.Tests.PackageTests
 NeedToEnableCollab	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs	/^            NeedToEnableCollab,$/;"	e	enum:UnityEditor.CollabToolbarButton.CollabToolbarState	file:
+New	Assets/MainMenuBehavior.cs	/^    private void New(int size)$/;"	m	class:MainMenuBehavior	file:
+New_Large	Assets/MainMenuBehavior.cs	/^    public void New_Large()$/;"	m	class:MainMenuBehavior
+New_Medium	Assets/MainMenuBehavior.cs	/^    public void New_Medium()$/;"	m	class:MainMenuBehavior
+New_Small	Assets/MainMenuBehavior.cs	/^    public void New_Small()$/;"	m	class:MainMenuBehavior
 NoResult	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageList.cs	/^        private VisualElement NoResult { get { return root.Q<VisualElement>("noResult"); } }$/;"	p	class:UnityEditor.PackageManager.UI.PackageList
 NoResultText	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageList.cs	/^        private Label NoResultText { get { return root.Q<Label>("noResultText"); } }$/;"	p	class:UnityEditor.PackageManager.UI.PackageList
 NoSeatClick	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs	/^        void NoSeatClick()$/;"	m	class:UnityEditor.CollabHistoryWindow	file:
@@ -4111,9 +4134,9 @@ m_EnvMapMatrix	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/
 m_ExpandCollapseButton	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs	/^        private readonly Button m_ExpandCollapseButton;$/;"	f	class:UnityEditor.Collaboration.CollabHistoryItem	file:
 m_Expanded	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs	/^        private bool m_Expanded;$/;"	f	class:UnityEditor.Collaboration.CollabHistoryItem	file:
 m_ExpandedPrefabGameObjectFileIDs	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	a
-m_ExpandedPrefabGameObjectFileIDs	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	a
+m_ExpandedPrefabGameObjectFileIDs	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	a
 m_ExpandedSceneGameObjectInstanceIDs	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	a
-m_ExpandedSceneGameObjectInstanceIDs	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	a
+m_ExpandedSceneGameObjectInstanceIDs	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	a
 m_FXMatrix	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected Matrix4x4 m_FXMatrix;$/;"	f	class:TMPro.TMP_Text
 m_Factory	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs	/^        ICollabHistoryItemFactory m_Factory;$/;"	f	class:UnityEditor.Collaboration.CollabHistoryPresenter	file:
 m_FetchInProgress	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs	/^        bool m_FetchInProgress;$/;"	f	class:UnityEditor.Collaboration.CollabHistoryPresenter	file:
@@ -4212,9 +4235,9 @@ m_Keyboard	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_
 m_KeyboardType	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_InputFieldEditor.cs	/^        SerializedProperty m_KeyboardType;$/;"	f	class:TMPro.EditorUtilities.TMP_InputFieldEditor	file:
 m_KeyboardType	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        private TouchScreenKeyboardType m_KeyboardType = TouchScreenKeyboardType.Default;$/;"	f	class:TMPro.TMP_InputField	file:
 m_LastClickedFileID	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	n
-m_LastClickedFileID	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n
+m_LastClickedFileID	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n
 m_LastClickedInstanceID	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	n
-m_LastClickedInstanceID	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n
+m_LastClickedInstanceID	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n
 m_LastPosition	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        private Vector2 m_LastPosition;$/;"	f	class:TMPro.TMP_InputField	file:
 m_LayoutElement	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected LayoutElement m_LayoutElement;$/;"	f	class:TMPro.TMP_Text
 m_LayoutQueueLookup	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_UpdateManager.cs	/^        private Dictionary<int, int> m_LayoutQueueLookup = new Dictionary<int, int>();$/;"	f	class:TMPro.TMP_UpdateManager	file:
@@ -4354,7 +4377,7 @@ m_ScrollPosition	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor
 m_ScrollPosition	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        private float m_ScrollPosition;$/;"	f	class:TMPro.TMP_InputField	file:
 m_ScrollSensitivity	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        protected float m_ScrollSensitivity = 1.0f;$/;"	f	class:TMPro.TMP_InputField
 m_ScrollY	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	n
-m_ScrollY	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-13312,-12842,-1/;"	n
+m_ScrollY	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n
 m_ScrollbarScrollSensitivity	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_InputFieldEditor.cs	/^        SerializedProperty m_ScrollbarScrollSensitivity;$/;"	f	class:TMPro.EditorUtilities.TMP_InputFieldEditor	file:
 m_SecondGlyph	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs	/^        private uint m_SecondGlyph;$/;"	f	class:TMPro.KerningPair	file:
 m_SecondGlyphAdjustments	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs	/^        private GlyphValueRecord m_SecondGlyphAdjustments;$/;"	f	class:TMPro.KerningPair	file:
