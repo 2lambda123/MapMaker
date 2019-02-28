@@ -19,7 +19,6 @@
 0	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
 0	Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json	/^  "keywords": [ "TextMeshPro", "TextMesh Pro", "Text", "SDF" ],$/;"	s	array:keywords
 0	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	n	array:m_ExpandedPrefabGameObjectFileIDs
-0	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 1	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 1	Library/PackageCache/com.unity.ads@2.0.8/package.json	/^        "unity"$/;"	s	array:keywords
 1	Library/PackageCache/com.unity.analytics@3.2.2/package.json	/^        "unity"$/;"	s	array:keywords
@@ -28,11 +27,9 @@
 1	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 1	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
 1	Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json	/^  "keywords": [ "TextMeshPro", "TextMesh Pro", "Text", "SDF" ],$/;"	s	array:keywords
-1	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 10	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 10	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 10	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-10	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 100	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 101	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^		{$/;"	o	array:assetRecords
 102	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -46,7 +43,6 @@
 11	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 11	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 11	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-11	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 110	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 111	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^		{$/;"	o	array:assetRecords
 112	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -60,7 +56,6 @@
 12	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 12	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 12	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-12	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 120	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 121	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^		{$/;"	o	array:assetRecords
 122	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -74,132 +69,88 @@
 13	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 13	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 13	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-13	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 14	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 14	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 14	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-14	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 15	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 15	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 15	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-15	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 16	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 16	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-16	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 17	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 17	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-17	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 18	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 18	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-18	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 19	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 19	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-19	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 2	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 2	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^    "teams",$/;"	s	array:keywords
 2	Library/PackageCache/com.unity.purchasing@2.0.3/package.json	/^    "unity"$/;"	s	array:keywords
 2	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 2	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
 2	Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json	/^  "keywords": [ "TextMeshPro", "TextMesh Pro", "Text", "SDF" ],$/;"	s	array:keywords
-2	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 20	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 20	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-20	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 21	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 21	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-21	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 22	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 22	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-22	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 23	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 23	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-23	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 24	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 24	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-24	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 25	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 25	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-25	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 26	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 26	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-26	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 27	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 27	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-27	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 28	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 28	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-28	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 29	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 29	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-29	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 3	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 3	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^    "team",$/;"	s	array:keywords
 3	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 3	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
 3	Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json	/^  "keywords": [ "TextMeshPro", "TextMesh Pro", "Text", "SDF" ],$/;"	s	array:keywords
-3	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 30	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 30	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-30	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 31	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 31	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-31	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 32	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 32	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-32	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 33	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 33	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-33	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 34	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 34	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-34	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 35	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 35	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-35	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 36	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-36	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 37	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-37	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 38	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-38	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 39	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-39	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 4	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 4	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^    "cloud",$/;"	s	array:keywords
 4	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 4	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-4	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 40	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-40	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 41	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-41	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 42	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-42	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 43	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-43	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 44	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-44	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 45	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-45	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 46	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-46	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 47	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-47	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 48	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-48	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 49	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-49	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 5	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 5	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^    "backup"$/;"	s	array:keywords
 5	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 5	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-5	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 50	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-50	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 51	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-51	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 52	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
-52	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 53	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 54	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 55	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -210,7 +161,6 @@
 6	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 6	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 6	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-6	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 60	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 61	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 62	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -224,7 +174,6 @@
 7	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 7	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 7	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^		{$/;"	o	array:assetRecords
-7	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 70	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 71	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 72	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -238,7 +187,6 @@
 8	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 8	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 8	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-8	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 80	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 81	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 82	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -252,7 +200,6 @@
 9	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^{$/;"	o	array:frames
 9	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 9	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData_Assets.json	/^        {$/;"	o	array:assetRecords
-9	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n	array:m_ExpandedSceneGameObjectInstanceIDs
 90	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 91	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
 92	Library/PackageCache/com.unity.textmeshpro@1.3.0/PackageConversionData.json	/^        {$/;"	o	array:assetRecords
@@ -424,11 +371,14 @@ AssetModificationRecord	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts
 AssetModificationRecord	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PackageUtilities.cs	/^        struct AssetModificationRecord$/;"	s	class:TMPro.TMP_ProjectConversionUtility
 AssetRemappingRecord	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PackageUtilities.cs	/^        struct AssetRemappingRecord$/;"	s	class:TMPro.TMP_PackageUtilities
 AssignPositioningIfNeeded	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        private void AssignPositioningIfNeeded()$/;"	m	class:TMPro.TMP_InputField	file:
+AsyncCallback	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        public delegate void AsyncCallback(string path);$/;"	m	class:SFB.StandaloneFileBrowserLinux
+AsyncCallback	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        public delegate void AsyncCallback(string path);$/;"	m	class:SFB.StandaloneFileBrowserMac
 AtlasHeight	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs	/^        public float AtlasHeight;$/;"	f	class:TMPro.FaceInfo
 AtlasWidth	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs	/^        public float AtlasWidth;$/;"	f	class:TMPro.FaceInfo
 Author	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfo.cs	/^        public string Author;$/;"	f	class:UnityEditor.PackageManager.UI.PackageInfo
 AutoCorrect	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^            AutoCorrect,$/;"	e	enum:TMPro.TMP_InputField.InputType	file:
 Autocorrected	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^            Autocorrected,$/;"	e	enum:TMPro.TMP_InputField.ContentType	file:
+Awake	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    void Awake() {$/;"	m	class:CanvasSampleSaveFileImage	file:
 Awake	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dropdown.cs	/^        protected override void Awake()$/;"	m	class:TMPro.TMP_Dropdown
 Awake	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAnimator.cs	/^        void Awake()$/;"	m	class:TMPro.TMP_SpriteAnimator	file:
 Awake	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_Private.cs	/^        protected override void Awake()$/;"	m	class:TMPro.TextMeshPro
@@ -444,6 +394,7 @@ BaselineGeoAligned	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runt
 BaselineJustified	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        BaselineJustified = _HorizontalAlignmentOptions.Justified | _VerticalAlignmentOptions.Ba/;"	e	enum:TMPro.TextAlignmentOptions	file:
 BaselineLeft	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        BaselineLeft = _HorizontalAlignmentOptions.Left | _VerticalAlignmentOptions.Baseline,$/;"	e	enum:TMPro.TextAlignmentOptions	file:
 BaselineRight	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        BaselineRight = _HorizontalAlignmentOptions.Right | _VerticalAlignmentOptions.Baseline,$/;"	e	enum:TMPro.TextAlignmentOptions	file:
+BasicSample	Assets/StandaloneFileBrowser/Sample/BasicSample.cs	/^public class BasicSample : MonoBehaviour {$/;"	c
 BeginPanel	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseShaderGUI.cs	/^        protected bool BeginPanel(string panel, ShaderFeature feature, bool expanded, bool readS/;"	m	class:TMPro.EditorUtilities.TMP_BaseShaderGUI
 BeginPanel	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseShaderGUI.cs	/^        protected bool BeginPanel(string panel, bool expanded)$/;"	m	class:TMPro.EditorUtilities.TMP_BaseShaderGUI
 BeginProperty	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseShaderGUI.cs	/^        MaterialProperty BeginProperty(string name)$/;"	m	class:TMPro.EditorUtilities.TMP_BaseShaderGUI	file:
@@ -471,6 +422,7 @@ BottomRight	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP
 BottomRight	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        BottomRight = _HorizontalAlignmentOptions.Right | _VerticalAlignmentOptions.Bottom,$/;"	e	enum:TMPro.TextAlignmentOptions	file:
 BottomRight	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextContainer.cs	/^    public enum TextContainerAnchors { TopLeft = 0, Top = 1, TopRight = 2, Left = 3, Middle = 4,/;"	e	enum:TMPro.TextContainerAnchors	file:
 Build	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/External/SemVersion.cs	/^        public string Build { get; private set; }$/;"	p	class:Semver.SemVersion
+BuildMachineOSBuild	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>BuildMachineOSBuild<\/key>$/;"	k
 BuildServiceEnabled	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs	/^        public bool BuildServiceEnabled {get; set; }$/;"	p	class:UnityEditor.Collaboration.CollabHistoryPresenter
 BuildStatusButton	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs	/^        public BuildStatusButton(Action clickEvent) : base(clickEvent)$/;"	m	class:UnityEditor.Collaboration.BuildStatusButton
 BuildStatusButton	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs	/^        public BuildStatusButton(Action clickEvent, BuildState state, int failures) : base(click/;"	m	class:UnityEditor.Collaboration.BuildStatusButton
@@ -480,8 +432,19 @@ BuiltInDescription	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Edito
 BuiltInPackages	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageGroupOrigins.cs	/^        BuiltInPackages$/;"	e	enum:UnityEditor.PackageManager.UI.PackageGroupOrigins	file:
 Builtin	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageOrigin.cs	/^        Builtin,$/;"	e	enum:UnityEditor.PackageManager.UI.PackageOrigin	file:
 ByName	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfoListExtensions.cs	/^        public static IEnumerable<PackageInfo> ByName(this IEnumerable<PackageInfo> list, string/;"	m	class:UnityEditor.PackageManager.UI.PackageInfoListExtensions
+CFBundleDevelopmentRegion	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleDevelopmentRegion<\/key>$/;"	k
+CFBundleExecutable	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleExecutable<\/key>$/;"	k
+CFBundleIdentifier	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleIdentifier<\/key>$/;"	k
+CFBundleInfoDictionaryVersion	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleInfoDictionaryVersion<\/key>$/;"	k
+CFBundleName	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleName<\/key>$/;"	k
+CFBundlePackageType	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundlePackageType<\/key>$/;"	k
+CFBundleShortVersionString	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleShortVersionString<\/key>$/;"	k
+CFBundleSignature	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleSignature<\/key>$/;"	k
+CFBundleSupportedPlatforms	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleSupportedPlatforms<\/key>$/;"	k
+CFBundleVersion	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CFBundleVersion<\/key>$/;"	k
 COLOR_GRADIENT_PROPERTY_EVENT	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_EventManager.cs	/^        public static readonly FastAction<TMP_ColorGradient> COLOR_GRADIENT_PROPERTY_EVENT = new/;"	f	class:TMPro.TMPro_EventManager
 COMPUTE_DT_EVENT	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_EventManager.cs	/^        public static readonly FastAction<object, Compute_DT_EventArgs> COMPUTE_DT_EVENT = new F/;"	f	class:TMPro.TMPro_EventManager
+CSResourcesFileMapped	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>CSResourcesFileMapped<\/key>$/;"	k
 CalculateLayoutInputHorizontal	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshPro.cs	/^        public void CalculateLayoutInputHorizontal()$/;"	m	class:TMPro.TextMeshPro
 CalculateLayoutInputHorizontal	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshProUGUI.cs	/^        public void CalculateLayoutInputHorizontal()$/;"	m	class:TMPro.TextMeshProUGUI
 CalculateLayoutInputVertical	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshPro.cs	/^        public void CalculateLayoutInputVertical()$/;"	m	class:TMPro.TextMeshPro
@@ -498,6 +461,11 @@ Cancel	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Serv
 CancelInProgess	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontPlugin.cs	/^        internal enum CancellationRequestType : byte { None = 0x0, CancelInProgess = 0x1, Window/;"	e	enum:TMPro.EditorUtilities.CancellationRequestType	file:
 CancellationRequestType	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontPlugin.cs	/^        internal enum CancellationRequestType : byte { None = 0x0, CancelInProgess = 0x1, Window/;"	g	namespace:TMPro.EditorUtilities
 CanvasManager	Assets/_Scripts/CanvasManager.cs	/^public class CanvasManager : MonoBehaviour$/;"	c
+CanvasSampleOpenFileImage	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^public class CanvasSampleOpenFileImage : MonoBehaviour, IPointerDownHandler {$/;"	c
+CanvasSampleOpenFileText	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^public class CanvasSampleOpenFileText : MonoBehaviour, IPointerDownHandler {$/;"	c
+CanvasSampleOpenFileTextMultiple	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^public class CanvasSampleOpenFileTextMultiple : MonoBehaviour, IPointerDownHandler {$/;"	c
+CanvasSampleSaveFileImage	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^public class CanvasSampleSaveFileImage : MonoBehaviour, IPointerDownHandler {$/;"	c
+CanvasSampleSaveFileText	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^public class CanvasSampleSaveFileText : MonoBehaviour, IPointerDownHandler {$/;"	c
 CapHeight	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs	/^        public float CapHeight;$/;"	f	class:TMPro.FaceInfo
 Capline	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        Capline = _HorizontalAlignmentOptions.Center | _VerticalAlignmentOptions.Capline,$/;"	e	enum:TMPro.TextAlignmentOptions	file:
 Capline	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        Top = 0x100, Middle = 0x200, Bottom = 0x400, Baseline = 0x800, Geometry = 0x1000, Caplin/;"	e	enum:TMPro._VerticalAlignmentOptions	file:
@@ -743,6 +711,13 @@ CutsceneSkip_CutsceneNameTest	Library/PackageCache/com.unity.analytics@3.2.2/Tes
 CutsceneStart_CustomDataTest	Library/PackageCache/com.unity.analytics@3.2.2/Tests/Editor/Unity.Analytics.StandardEvents/CutsceneStartTests.cs	/^        public void CutsceneStart_CustomDataTest()$/;"	m	class:UnityEngine.Analytics.Tests.AnalyticsEventTests
 CutsceneStart_CutsceneNameTest	Library/PackageCache/com.unity.analytics@3.2.2/Tests/Editor/Unity.Analytics.StandardEvents/CutsceneStartTests.cs	/^        public void CutsceneStart_CutsceneNameTest($/;"	m	class:UnityEngine.Analytics.Tests.AnalyticsEventTests
 DRAG_AND_DROP_MATERIAL_EVENT	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_EventManager.cs	/^        public static readonly FastAction<GameObject, Material, Material> DRAG_AND_DROP_MATERIAL/;"	f	class:TMPro.TMPro_EventManager
+DTCompiler	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>DTCompiler<\/key>$/;"	k
+DTPlatformBuild	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>DTPlatformBuild<\/key>$/;"	k
+DTPlatformVersion	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>DTPlatformVersion<\/key>$/;"	k
+DTSDKBuild	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>DTSDKBuild<\/key>$/;"	k
+DTSDKName	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>DTSDKName<\/key>$/;"	k
+DTXcode	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>DTXcode<\/key>$/;"	k
+DTXcodeBuild	Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist	/^	<key>DTXcodeBuild<\/key>$/;"	k
 DarkStylePath	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerWindow.cs	/^        private const string DarkStylePath = ResourcesPath + "Styles\/Main_Dark.uss";$/;"	f	class:UnityEditor.PackageManager.UI.PackageManagerWindow	file:
 DataPrivacy	Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacy.cs	/^    public class DataPrivacy$/;"	c	namespace:UnityEngine.Analytics
 DataPrivacyButton	Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacyButton.cs	/^        DataPrivacyButton()$/;"	m	class:UnityEngine.Analytics.DataPrivacyButton	file:
@@ -773,6 +748,19 @@ DetailModuleReference	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Ed
 DetailVersion	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs	/^        private Label DetailVersion { get { return root.Q<Label>("detailVersion");  }}$/;"	p	class:UnityEditor.PackageManager.UI.PackageDetails
 DetailView	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs	/^        private ScrollView DetailView { get { return root.Q<ScrollView>("detailView"); } }$/;"	p	class:UnityEditor.PackageManager.UI.PackageDetails
 Development	Library/PackageCache/com.unity.collab-proxy@1.2.15/README.md	/^## Development$/;"	s
+DialogInit	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static extern void DialogInit();$/;"	m	class:SFB.StandaloneFileBrowserLinux	file:
+DialogOpenFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static extern IntPtr DialogOpenFilePanel(string title, string directory, string /;"	m	class:SFB.StandaloneFileBrowserLinux	file:
+DialogOpenFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static extern IntPtr DialogOpenFilePanel(string title, string directory, string /;"	m	class:SFB.StandaloneFileBrowserMac	file:
+DialogOpenFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static extern void DialogOpenFilePanelAsync(string title, string directory, stri/;"	m	class:SFB.StandaloneFileBrowserLinux	file:
+DialogOpenFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static extern void DialogOpenFilePanelAsync(string title, string directory, stri/;"	m	class:SFB.StandaloneFileBrowserMac	file:
+DialogOpenFolderPanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static extern IntPtr DialogOpenFolderPanel(string title, string directory, bool /;"	m	class:SFB.StandaloneFileBrowserLinux	file:
+DialogOpenFolderPanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static extern IntPtr DialogOpenFolderPanel(string title, string directory, bool /;"	m	class:SFB.StandaloneFileBrowserMac	file:
+DialogOpenFolderPanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static extern void DialogOpenFolderPanelAsync(string title, string directory, bo/;"	m	class:SFB.StandaloneFileBrowserLinux	file:
+DialogOpenFolderPanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static extern void DialogOpenFolderPanelAsync(string title, string directory, bo/;"	m	class:SFB.StandaloneFileBrowserMac	file:
+DialogSaveFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static extern IntPtr DialogSaveFilePanel(string title, string directory, string /;"	m	class:SFB.StandaloneFileBrowserLinux	file:
+DialogSaveFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static extern IntPtr DialogSaveFilePanel(string title, string directory, string /;"	m	class:SFB.StandaloneFileBrowserMac	file:
+DialogSaveFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static extern void DialogSaveFilePanelAsync(string title, string directory, stri/;"	m	class:SFB.StandaloneFileBrowserLinux	file:
+DialogSaveFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static extern void DialogSaveFilePanelAsync(string title, string directory, stri/;"	m	class:SFB.StandaloneFileBrowserMac	file:
 Digit	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^            Digit,$/;"	e	enum:TMPro.TMP_InputField.CharacterValidation	file:
 Disable	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs	/^            Disable,$/;"	e	enum:UnityEditor.PackageManager.UI.PackageDetails.PackageAction	file:
 DisableMasking	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_Private.cs	/^        void DisableMasking()$/;"	m	class:TMPro.TextMeshPro	file:
@@ -848,6 +836,8 @@ DoVerticalAligmentControl	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scrip
 DocumentationContainer	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs	/^        private VisualElement DocumentationContainer { get { return root.Q<VisualElement>("docum/;"	p	class:UnityEditor.PackageManager.UI.PackageDetails
 DontRender	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        DontRender = 0x0,$/;"	e	enum:TMPro.TextRenderFlags	file:
 Downgrade	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs	/^            Downgrade,$/;"	e	enum:UnityEditor.PackageManager.UI.PackageDetails.PackageAction	file:
+DownloadFile	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    private static extern void DownloadFile(string gameObjectName, string methodName, string fil/;"	m	class:CanvasSampleSaveFileImage	file:
+DownloadFile	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^    private static extern void DownloadFile(string gameObjectName, string methodName, string fil/;"	m	class:CanvasSampleSaveFileText	file:
 DrawAlignment	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseEditorPanel.cs	/^        void DrawAlignment()$/;"	m	class:TMPro.EditorUtilities.TMP_BaseEditorPanel	file:
 DrawBox	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_EditorUtility.cs	/^        public static void DrawBox(Rect rect, float thickness, Color color)$/;"	m	class:TMPro.EditorUtilities.TMP_EditorUtility
 DrawColor	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseEditorPanel.cs	/^        void DrawColor()$/;"	m	class:TMPro.EditorUtilities.TMP_BaseEditorPanel	file:
@@ -925,6 +915,9 @@ EvaluateAnalyticsResult	Library/PackageCache/com.unity.analytics@3.2.2/Tests/Edi
 EvaluateCustomData	Library/PackageCache/com.unity.analytics@3.2.2/Tests/Editor/Unity.Analytics.StandardEvents/AnalyticsEventTests.cs	/^        public static void EvaluateCustomData(IDictionary<string, object> customData)$/;"	m	class:UnityEngine.Analytics.Tests.AnalyticsEventTests
 EvaluateRegisteredCustomData	Library/PackageCache/com.unity.analytics@3.2.2/Tests/Editor/Unity.Analytics.StandardEvents/AnalyticsEventTests.cs	/^        public static void EvaluateRegisteredCustomData(IDictionary<string, object> customData)$/;"	m	class:UnityEngine.Analytics.Tests.AnalyticsEventTests
 EventType	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_EventManager.cs	/^        public Compute_DistanceTransform_EventTypes EventType;$/;"	f	class:TMPro.Compute_DT_EventArgs
+ExtensionFilter	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public ExtensionFilter(string filterName, params string[] filterExtensions) {$/;"	m	struct:SFB.ExtensionFilter
+ExtensionFilter	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^    public struct ExtensionFilter {$/;"	s	namespace:SFB
+Extensions	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public string[] Extensions;$/;"	f	struct:SFB.ExtensionFilter
 Extensions	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerExtensions.cs	/^        internal static List<IPackageManagerExtension> Extensions { get { return extensions ?? (/;"	p	class:UnityEditor.PackageManager.UI.PackageManagerExtensions
 Extents	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^        public Extents(Vector2 min, Vector2 max)$/;"	m	struct:TMPro.Extents
 Extents	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^    public struct Extents$/;"	s	namespace:TMPro
@@ -1041,6 +1034,7 @@ Geometry	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Te
 Geometry	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        Top = 0x100, Middle = 0x200, Bottom = 0x400, Baseline = 0x800, Geometry = 0x1000, Caplin/;"	e	enum:TMPro._VerticalAlignmentOptions	file:
 Get	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ListPool.cs	/^        public static List<T> Get()$/;"	m	class:TMPro.TMP_ListPool
 Get	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ObjectPool.cs	/^        public T Get()$/;"	m	class:TMPro.T
+GetActiveWindow	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        private static extern IntPtr GetActiveWindow();$/;"	m	class:SFB.StandaloneFileBrowserWindows	file:
 GetAllPackageAsync	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/ISearchOperation.cs	/^        void GetAllPackageAsync(Action<IEnumerable<PackageInfo>> doneCallbackAction = null, Acti/;"	m	interface:UnityEditor.PackageManager.UI.ISearchOperation
 GetAllPackageAsync	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmSearchOperation.cs	/^        public void GetAllPackageAsync(Action<IEnumerable<PackageInfo>> doneCallbackAction = nul/;"	m	class:UnityEditor.PackageManager.UI.UpmSearchOperation
 GetAllPackageAsync	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Services/Mock/MockSearchOperation.cs	/^        public void GetAllPackageAsync(Action<IEnumerable<PackageInfo>> doneCallbackAction = nul/;"	m	class:UnityEditor.PackageManager.UI.Tests.MockSearchOperation
@@ -1065,6 +1059,7 @@ GetCompoundBounds	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runti
 GetCursorIndexFromPosition	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextUtilities.cs	/^        public static int GetCursorIndexFromPosition(TMP_Text textComponent, Vector3 position, C/;"	m	class:TMPro.TMP_TextUtilities
 GetDecimalCharacterSequence	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_EditorUtility.cs	/^        public static string GetDecimalCharacterSequence(int[] characterSet)$/;"	m	class:TMPro.EditorUtilities.TMP_EditorUtility
 GetDefaultSpriteMaterial	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAsset.cs	/^        Material GetDefaultSpriteMaterial()$/;"	m	class:TMPro.TMP_SpriteAsset	file:
+GetDirectoryPath	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        private static string GetDirectoryPath(string directory) {$/;"	m	class:SFB.StandaloneFileBrowserWindows	file:
 GetDocumentationUrl	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfo.cs	/^        public string GetDocumentationUrl()$/;"	m	class:UnityEditor.PackageManager.UI.PackageInfo
 GetDuration	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_CoroutineTween.cs	/^        public float GetDuration()$/;"	m	struct:TMPro.ColorTween
 GetDuration	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_CoroutineTween.cs	/^        public float GetDuration()$/;"	m	struct:TMPro.FloatTween
@@ -1072,6 +1067,10 @@ GetEssentialProjectResourcesPath	Library/PackageCache/com.unity.textmeshpro@1.3.
 GetFaceInfo	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs	/^        static FaceInfo GetFaceInfo(FT_FaceInfo ftFace, int scaleFactor)$/;"	m	class:TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow	file:
 GetFallbackMaterial	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_MaterialManager.cs	/^        public static Material GetFallbackMaterial (Material sourceMaterial, Material targetMate/;"	m	class:TMPro.TMP_MaterialManager
 GetFilterDisplayName	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerToolbar.cs	/^        private static string GetFilterDisplayName(PackageFilter filter)$/;"	m	class:UnityEditor.PackageManager.UI.PackageManagerToolbar	file:
+GetFilterFromFileExtensionList	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^        private static string[] GetFilterFromFileExtensionList(ExtensionFilter[] extensions) {$/;"	m	class:SFB.StandaloneFileBrowserEditor	file:
+GetFilterFromFileExtensionList	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static string GetFilterFromFileExtensionList(ExtensionFilter[] extensions) {$/;"	m	class:SFB.StandaloneFileBrowserLinux	file:
+GetFilterFromFileExtensionList	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static string GetFilterFromFileExtensionList(ExtensionFilter[] extensions) {$/;"	m	class:SFB.StandaloneFileBrowserMac	file:
+GetFilterFromFileExtensionList	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        private static string GetFilterFromFileExtensionList(ExtensionFilter[] extensions) {$/;"	m	class:SFB.StandaloneFileBrowserWindows	file:
 GetFontAsset	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Settings.cs	/^        public static TMP_FontAsset GetFontAsset()$/;"	m	class:TMPro.TMP_Settings
 GetFontAssetForWeight	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected TMP_FontAsset GetFontAssetForWeight(int fontWeight)$/;"	m	class:TMPro.TMP_Text
 GetFontExtent	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_ShaderUtilities.cs	/^        public static Vector4 GetFontExtent(Material material)$/;"	m	class:TMPro.ShaderUtilities
@@ -1218,6 +1217,7 @@ Group	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Ser
 GroupName	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmBaseOperation.cs	/^        public static string GroupName(PackageSource origin)$/;"	m	class:UnityEditor.PackageManager.UI.UpmBaseOperation
 Groups	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageList.cs	/^        private List<PackageGroup> Groups;$/;"	f	class:UnityEditor.PackageManager.UI.PackageList	file:
 GuiContent	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs	/^            public GUIContent GuiContent$/;"	p	class:UnityEditor.CollabToolbarButton.CollabToolbarContent
+Handle	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        public IntPtr Handle { get { return _hwnd; } }$/;"	p	class:SFB.WindowWrapper
 HasChangelog	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfo.cs	/^        public bool HasChangelog(PackageInfo packageInfo)$/;"	m	class:UnityEditor.PackageManager.UI.PackageInfo
 HasCharacter	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_FontAsset.cs	/^        public bool HasCharacter(char character)$/;"	m	class:TMPro.TMP_FontAsset
 HasCharacter	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_FontAsset.cs	/^        public bool HasCharacter(char character, bool searchFallbacks)$/;"	m	class:TMPro.TMP_FontAsset
@@ -1311,6 +1311,7 @@ IPackageManagerExtension	Library/PackageCache/com.unity.package-manager-ui@2.0.3
 IPagerData	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs	/^    internal interface IPagerData$/;"	i	namespace:UnityEditor.Collaboration
 IRemoveOperation	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IRemoveOperation.cs	/^    internal interface IRemoveOperation : IBaseOperation$/;"	i	namespace:UnityEditor.PackageManager.UI
 ISearchOperation	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/ISearchOperation.cs	/^    internal interface ISearchOperation : IBaseOperation$/;"	i	namespace:UnityEditor.PackageManager.UI
+IStandaloneFileBrowser	Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	/^    public interface IStandaloneFileBrowser {$/;"	i	namespace:SFB
 ITextElement	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^    public interface ITextElement$/;"	i	namespace:TMPro
 ITweenValue	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_CoroutineTween.cs	/^    internal interface ITweenValue$/;"	i	namespace:TMPro
 ImportCallback	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/PackageResourceImporterWindow.cs	/^        void ImportCallback(string packageName)$/;"	m	class:TMPro.PackageResourceImporterWindow	file:
@@ -1489,6 +1490,7 @@ ListPackages_UsesCache	Library/PackageCache/com.unity.package-manager-ui@2.0.3/T
 ListSignal	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageCollection.cs	/^        public readonly OperationSignal<IListOperation> ListSignal = new OperationSignal<IListOp/;"	f	class:UnityEditor.PackageManager.UI.PackageCollection
 Load	Assets/EditMenuBehavior.cs	/^    public void Load()$/;"	m	class:EditMenuBehavior
 Load	Assets/MainMenuBehavior.cs	/^    public void Load()$/;"	m	class:MainMenuBehavior
+Load	Assets/_Scripts/SaveMenu.cs	/^    public void Load() {$/;"	m	class:SaveMenu
 Load	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageJsonHelper.cs	/^        public static PackageJsonHelper Load(string path)$/;"	m	class:UnityEditor.PackageManager.UI.PackageJsonHelper
 LoadDefaultSettings	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Settings.cs	/^        public static TMP_Settings LoadDefaultSettings()$/;"	m	class:TMPro.TMP_Settings
 LoadDefaultSettings	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected void LoadDefaultSettings()$/;"	m	class:TMPro.TMP_Text
@@ -1594,6 +1596,7 @@ MultiLineSubmit	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime
 Multiply	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_ExtensionMethods.cs	/^        public static Color32 Multiply (this Color32 c1, Color32 c2)$/;"	m	class:TMPro.TMPro_ExtensionMethods
 NS_UNAVAILABLE	Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h	/^+ (instancetype)initialize NS_UNAVAILABLE;$/;"	c	interface:UnityAds
 NS_UNAVAILABLE	Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h	/^- (instancetype)init NS_UNAVAILABLE;$/;"	m	interface:UnityAds
+Name	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public string Name;$/;"	f	struct:SFB.ExtensionFilter
 Name	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/Package.cs	/^        public string Name { get { return packageName; } }$/;"	p	class:UnityEditor.PackageManager.UI.Package
 Name	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfo.cs	/^        public string Name;$/;"	f	class:UnityEditor.PackageManager.UI.PackageInfo
 Name	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^            Name,$/;"	e	enum:TMPro.TMP_InputField.CharacterValidation	file:
@@ -1687,6 +1690,11 @@ OnCancel	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dr
 OnCancel	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dropdown.cs	/^        public virtual void OnCancel(BaseEventData eventData)$/;"	m	class:TMPro.TMP_Dropdown
 OnCanvasHierarchyChanged	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_UGUI_Private.cs	/^        protected override void OnCanvasHierarchyChanged()$/;"	m	class:TMPro.TextMeshProUGUI
 OnChangeEvent	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        public class OnChangeEvent : UnityEvent<string> { }$/;"	c	class:TMPro.TMP_InputField
+OnClick	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^    private void OnClick() {$/;"	m	class:CanvasSampleOpenFileImage	file:
+OnClick	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^    private void OnClick() {$/;"	m	class:CanvasSampleOpenFileText	file:
+OnClick	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^    private void OnClick() {$/;"	m	class:CanvasSampleOpenFileTextMultiple	file:
+OnClick	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    public void OnClick() {$/;"	m	class:CanvasSampleSaveFileImage
+OnClick	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^    public void OnClick() {$/;"	m	class:CanvasSampleSaveFileText
 OnCloseError	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/Alert.cs	/^        public Action OnCloseError;$/;"	f	class:UnityEditor.PackageManager.UI.Alert
 OnCollabError	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs	/^        private void OnCollabError()$/;"	m	class:UnityEditor.Collaboration.CollabHistoryPresenter	file:
 OnCollabErrorCleared	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs	/^        private void OnCollabErrorCleared()$/;"	m	class:UnityEditor.Collaboration.CollabHistoryPresenter	file:
@@ -1766,6 +1774,11 @@ OnEnterPanel	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sour
 OnError	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmBaseOperation.cs	/^        private void OnError(Error error)$/;"	m	class:UnityEditor.PackageManager.UI.UpmBaseOperation	file:
 OnFailure	Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacyButton.cs	/^        void OnFailure(string reason)$/;"	m	class:UnityEngine.Analytics.DataPrivacyButton	file:
 OnFetchRevisions	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs	/^        private void OnFetchRevisions(RevisionsResult data)$/;"	m	class:UnityEditor.Collaboration.CollabHistoryPresenter	file:
+OnFileDownload	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    public void OnFileDownload() {$/;"	m	class:CanvasSampleSaveFileImage
+OnFileDownload	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^    public void OnFileDownload() {$/;"	m	class:CanvasSampleSaveFileText
+OnFileUpload	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^    public void OnFileUpload(string url) {$/;"	m	class:CanvasSampleOpenFileImage
+OnFileUpload	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^    public void OnFileUpload(string url) {$/;"	m	class:CanvasSampleOpenFileText
+OnFileUpload	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^    public void OnFileUpload(string urls) {$/;"	m	class:CanvasSampleOpenFileTextMultiple
 OnFillVBO	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        private void OnFillVBO(Mesh vbo)$/;"	m	class:TMPro.TMP_InputField	file:
 OnFilterButtonMouseDown	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerToolbar.cs	/^        private void OnFilterButtonMouseDown(MouseDownEvent evt)$/;"	m	class:UnityEditor.PackageManager.UI.PackageManagerToolbar	file:
 OnFilterChangeEvent	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Services/Packages/PackageCollectionTests.cs	/^        private Action<PackageFilter> OnFilterChangeEvent;$/;"	f	class:UnityEditor.PackageManager.UI.Tests.PackageCollectionTests	file:
@@ -1773,6 +1786,7 @@ OnFilterChanged	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/S
 OnFocus	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        protected void OnFocus()$/;"	m	class:TMPro.TMP_InputField
 OnFocusChange	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageList.cs	/^        public event Action OnFocusChange = delegate { };$/;"	E	class:UnityEditor.PackageManager.UI.PackageList
 OnFocusChange	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageSearchToolbar.cs	/^        public event Action OnFocusChange = delegate { };$/;"	E	class:UnityEditor.PackageManager.UI.PackageSearchToolbar
+OnGUI	Assets/StandaloneFileBrowser/Sample/BasicSample.cs	/^    void OnGUI() {$/;"	m	class:BasicSample	file:
 OnGUI	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs	/^        public override void OnGUI(Rect rect)$/;"	m	class:UnityEditor.CollabToolbarButton
 OnGUI	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/DropdownOptionListDrawer.cs	/^        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)$/;"	m	class:TMPro.EditorUtilities.DropdownOptionListDrawer
 OnGUI	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/GlyphInfoDrawer.cs	/^        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)$/;"	m	class:TMPro.EditorUtilities.GlyphInfoDrawer
@@ -1862,6 +1876,16 @@ OnPlayModeStateChanged	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor
 OnPointerClick	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dropdown.cs	/^        public virtual void OnPointerClick(PointerEventData eventData)$/;"	m	class:TMPro.TMP_Dropdown
 OnPointerClick	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        public virtual void OnPointerClick(PointerEventData eventData)$/;"	m	class:TMPro.TMP_InputField
 OnPointerClick	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ScrollbarEventHandler.cs	/^        public void OnPointerClick(PointerEventData eventData)$/;"	m	class:TMPro.TMP_ScrollbarEventHandler
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^    public void OnPointerDown(PointerEventData eventData) { }$/;"	m	class:CanvasSampleOpenFileImage
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^    public void OnPointerDown(PointerEventData eventData) {$/;"	m	class:CanvasSampleOpenFileImage
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^    public void OnPointerDown(PointerEventData eventData) { }$/;"	m	class:CanvasSampleOpenFileText
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^    public void OnPointerDown(PointerEventData eventData) {$/;"	m	class:CanvasSampleOpenFileText
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^    public void OnPointerDown(PointerEventData eventData) { }$/;"	m	class:CanvasSampleOpenFileTextMultiple
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^    public void OnPointerDown(PointerEventData eventData) {$/;"	m	class:CanvasSampleOpenFileTextMultiple
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    public void OnPointerDown(PointerEventData eventData) { }$/;"	m	class:CanvasSampleSaveFileImage
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    public void OnPointerDown(PointerEventData eventData) {$/;"	m	class:CanvasSampleSaveFileImage
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^    public void OnPointerDown(PointerEventData eventData) { }$/;"	m	class:CanvasSampleSaveFileText
+OnPointerDown	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^    public void OnPointerDown(PointerEventData eventData) {$/;"	m	class:CanvasSampleSaveFileText
 OnPointerDown	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        public override void OnPointerDown(PointerEventData eventData)$/;"	m	class:TMPro.TMP_InputField
 OnPointerEnter	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dropdown.cs	/^            public virtual void OnPointerEnter(PointerEventData eventData)$/;"	m	class:TMPro.TMP_Dropdown.DropdownItem
 OnPostprocessAllAssets	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageAssetPostprocessor.cs	/^        static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, stri/;"	m	class:UnityEditor.PackageManager.UI.PackageAssetPostprocessor	file:
@@ -1935,6 +1959,32 @@ OneTimeSetup	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Edito
 OneTimeTearDown	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Common/UITests.cs	/^        protected void OneTimeTearDown()$/;"	m	class:UnityEditor.PackageManager.UI.Tests.TWindow
 OneTimeTearDown	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Services/Packages/PackageBaseTests.cs	/^        public void OneTimeTearDown()$/;"	m	class:UnityEditor.PackageManager.UI.Tests.PackageBaseTests
 OpenDataPrivacyUrl	Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacyButton.cs	/^        void OpenDataPrivacyUrl()$/;"	m	class:UnityEngine.Analytics.DataPrivacyButton	file:
+OpenFilePanel	Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	/^        string[] OpenFilePanel(string title, string directory, ExtensionFilter[] extensions, boo/;"	m	interface:SFB.IStandaloneFileBrowser
+OpenFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static string[] OpenFilePanel(string title, string directory, ExtensionFilter[] e/;"	m	class:SFB.StandaloneFileBrowser
+OpenFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static string[] OpenFilePanel(string title, string directory, string extension, b/;"	m	class:SFB.StandaloneFileBrowser
+OpenFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^        public string[] OpenFilePanel(string title, string directory, ExtensionFilter[] extensio/;"	m	class:SFB.StandaloneFileBrowserEditor
+OpenFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        public string[] OpenFilePanel(string title, string directory, ExtensionFilter[] extensio/;"	m	class:SFB.StandaloneFileBrowserLinux
+OpenFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        public string[] OpenFilePanel(string title, string directory, ExtensionFilter[] extensio/;"	m	class:SFB.StandaloneFileBrowserMac
+OpenFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        public string[] OpenFilePanel(string title, string directory, ExtensionFilter[] extensio/;"	m	class:SFB.StandaloneFileBrowserWindows
+OpenFilePanelAsync	Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	/^        void OpenFilePanelAsync(string title, string directory, ExtensionFilter[] extensions, bo/;"	m	interface:SFB.IStandaloneFileBrowser
+OpenFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static void OpenFilePanelAsync(string title, string directory, ExtensionFilter[] /;"	m	class:SFB.StandaloneFileBrowser
+OpenFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static void OpenFilePanelAsync(string title, string directory, string extension, /;"	m	class:SFB.StandaloneFileBrowser
+OpenFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^        public void OpenFilePanelAsync(string title, string directory, ExtensionFilter[] extensi/;"	m	class:SFB.StandaloneFileBrowserEditor
+OpenFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        public void OpenFilePanelAsync(string title, string directory, ExtensionFilter[] extensi/;"	m	class:SFB.StandaloneFileBrowserLinux
+OpenFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        public void OpenFilePanelAsync(string title, string directory, ExtensionFilter[] extensi/;"	m	class:SFB.StandaloneFileBrowserMac
+OpenFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        public void OpenFilePanelAsync(string title, string directory, ExtensionFilter[] extensi/;"	m	class:SFB.StandaloneFileBrowserWindows
+OpenFolderPanel	Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	/^        string[] OpenFolderPanel(string title, string directory, bool multiselect);$/;"	m	interface:SFB.IStandaloneFileBrowser
+OpenFolderPanel	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static string[] OpenFolderPanel(string title, string directory, bool multiselect)/;"	m	class:SFB.StandaloneFileBrowser
+OpenFolderPanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^        public string[] OpenFolderPanel(string title, string directory, bool multiselect) {$/;"	m	class:SFB.StandaloneFileBrowserEditor
+OpenFolderPanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        public string[] OpenFolderPanel(string title, string directory, bool multiselect) {$/;"	m	class:SFB.StandaloneFileBrowserLinux
+OpenFolderPanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        public string[] OpenFolderPanel(string title, string directory, bool multiselect) {$/;"	m	class:SFB.StandaloneFileBrowserMac
+OpenFolderPanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        public string[] OpenFolderPanel(string title, string directory, bool multiselect) {$/;"	m	class:SFB.StandaloneFileBrowserWindows
+OpenFolderPanelAsync	Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	/^        void OpenFolderPanelAsync(string title, string directory, bool multiselect, Action<strin/;"	m	interface:SFB.IStandaloneFileBrowser
+OpenFolderPanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static void OpenFolderPanelAsync(string title, string directory, bool multiselect/;"	m	class:SFB.StandaloneFileBrowser
+OpenFolderPanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^        public void OpenFolderPanelAsync(string title, string directory, bool multiselect, Actio/;"	m	class:SFB.StandaloneFileBrowserEditor
+OpenFolderPanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        public void OpenFolderPanelAsync(string title, string directory, bool multiselect, Actio/;"	m	class:SFB.StandaloneFileBrowserLinux
+OpenFolderPanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        public void OpenFolderPanelAsync(string title, string directory, bool multiselect, Actio/;"	m	class:SFB.StandaloneFileBrowserMac
+OpenFolderPanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        public void OpenFolderPanelAsync(string title, string directory, bool multiselect, Actio/;"	m	class:SFB.StandaloneFileBrowserWindows
 OpenTileSelectorMenu	Assets/TileSelectorPanelSlide.cs	/^    public void OpenTileSelectorMenu()$/;"	m	class:TileSelectorPanelSlide
 OpenUrl	Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacyButton.cs	/^        void OpenUrl(string url)$/;"	m	class:UnityEngine.Analytics.DataPrivacyButton	file:
 Operation	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/OperationSignal.cs	/^        public T Operation { get; set; }$/;"	p	class:UnityEditor.PackageManager.UI.T
@@ -1954,6 +2004,9 @@ Origin	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI
 Outdated	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageState.cs	/^        Outdated,$/;"	e	enum:UnityEditor.PackageManager.UI.PackageState	file:
 Outdated	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Common/PackageSets.cs	/^        public List<PackageInfo> Outdated()$/;"	m	class:UnityEditor.PackageManager.UI.Tests.PackageSets
 Outline	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontPlugin.cs	/^        public enum FaceStyles { Normal, Bold, Italic, Bold_Italic, Outline, Bold_Sim };$/;"	e	enum:TMPro.EditorUtilities.FaceStyles	file:
+OutputRoutine	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^    private IEnumerator OutputRoutine(string url) {$/;"	m	class:CanvasSampleOpenFileImage	file:
+OutputRoutine	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^    private IEnumerator OutputRoutine(string url) {$/;"	m	class:CanvasSampleOpenFileText	file:
+OutputRoutine	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^    private IEnumerator OutputRoutine(string[] urlArr) {$/;"	m	class:CanvasSampleOpenFileTextMultiple	file:
 Overflow	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^    public enum TextOverflowModes { Overflow = 0, Ellipsis = 1, Masking = 2, Truncate = 3, Scrol/;"	e	enum:TMPro.TextOverflowModes	file:
 PackUV	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected Vector2 PackUV(float x, float y, float scale)$/;"	m	class:TMPro.TMP_Text
 PackUV	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected float PackUV(float x, float y)$/;"	m	class:TMPro.TMP_Text
@@ -2221,13 +2274,35 @@ Right	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.
 Right	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextUtilities.cs	/^    public enum CaretPosition { None, Left, Right }$/;"	e	enum:TMPro.CaretPosition	file:
 Right	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextContainer.cs	/^    public enum TextContainerAnchors { TopLeft = 0, Top = 1, TopRight = 2, Left = 3, Middle = 4,/;"	e	enum:TMPro.TextContainerAnchors	file:
 SDF	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_FontAsset.cs	/^        public enum FontAssetTypes { None = 0, SDF = 1, Bitmap = 2 };$/;"	e	enum:TMPro.TMP_FontAsset.FontAssetTypes	file:
+SFB	Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	/^namespace SFB {$/;"	n
+SFB	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^namespace SFB {$/;"	n
+SFB	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^namespace SFB {$/;"	n
+SFB	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^namespace SFB {$/;"	n
+SFB	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^namespace SFB {$/;"	n
+SFB	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^namespace SFB {$/;"	n
 SPRITE_ASSET_PROPERTY_EVENT	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_EventManager.cs	/^        public static readonly FastAction<bool, Object> SPRITE_ASSET_PROPERTY_EVENT = new FastAc/;"	f	class:TMPro.TMPro_EventManager
+Save	Assets/_Scripts/SaveMenu.cs	/^    public void Save() {$/;"	m	class:SaveMenu
 Save	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PackageUtilities.cs	/^        enum SaveAssetDialogueOptions { Unset = 0, Save = 1, SaveAll = 2, DoNotSave = 3 };$/;"	e	enum:TMPro.TMP_PackageUtilities.SaveAssetDialogueOptions	file:
 SaveAll	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PackageUtilities.cs	/^        enum SaveAssetDialogueOptions { Unset = 0, Save = 1, SaveAll = 2, DoNotSave = 3 };$/;"	e	enum:TMPro.TMP_PackageUtilities.SaveAssetDialogueOptions	file:
+SaveAs	Assets/_Scripts/SaveMenu.cs	/^    public void SaveAs() {$/;"	m	class:SaveMenu
 SaveAssetDialogueOptions	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PackageUtilities.cs	/^        enum SaveAssetDialogueOptions { Unset = 0, Save = 1, SaveAll = 2, DoNotSave = 3 };$/;"	g	class:TMPro.TMP_PackageUtilities
 SaveCreationSettingsToEditorPrefs	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs	/^        void SaveCreationSettingsToEditorPrefs(FontAssetCreationSettings settings)$/;"	m	class:TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow	file:
+SaveFilePanel	Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	/^        string SaveFilePanel(string title, string directory, string defaultName, ExtensionFilter/;"	m	interface:SFB.IStandaloneFileBrowser
+SaveFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static string SaveFilePanel(string title, string directory, string defaultName , /;"	m	class:SFB.StandaloneFileBrowser
+SaveFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static string SaveFilePanel(string title, string directory, string defaultName, E/;"	m	class:SFB.StandaloneFileBrowser
+SaveFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^        public string SaveFilePanel(string title, string directory, string defaultName, Extensio/;"	m	class:SFB.StandaloneFileBrowserEditor
+SaveFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        public string SaveFilePanel(string title, string directory, string defaultName, Extensio/;"	m	class:SFB.StandaloneFileBrowserLinux
+SaveFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        public string SaveFilePanel(string title, string directory, string defaultName, Extensio/;"	m	class:SFB.StandaloneFileBrowserMac
+SaveFilePanel	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        public string SaveFilePanel(string title, string directory, string defaultName, Extensio/;"	m	class:SFB.StandaloneFileBrowserWindows
+SaveFilePanelAsync	Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs	/^        void SaveFilePanelAsync(string title, string directory, string defaultName, ExtensionFil/;"	m	interface:SFB.IStandaloneFileBrowser
+SaveFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        public static void SaveFilePanelAsync(string title, string directory, string defaultName/;"	m	class:SFB.StandaloneFileBrowser
+SaveFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^        public void SaveFilePanelAsync(string title, string directory, string defaultName, Exten/;"	m	class:SFB.StandaloneFileBrowserEditor
+SaveFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        public void SaveFilePanelAsync(string title, string directory, string defaultName, Exten/;"	m	class:SFB.StandaloneFileBrowserLinux
+SaveFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        public void SaveFilePanelAsync(string title, string directory, string defaultName, Exten/;"	m	class:SFB.StandaloneFileBrowserMac
+SaveFilePanelAsync	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        public void SaveFilePanelAsync(string title, string directory, string defaultName, Exten/;"	m	class:SFB.StandaloneFileBrowserWindows
 SaveFontCreationSettings	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs	/^        FontAssetCreationSettings SaveFontCreationSettings()$/;"	m	class:TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow	file:
 SaveGlyphVertexInfo	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected virtual void SaveGlyphVertexInfo(float padding, float style_padding, Color32 v/;"	m	class:TMPro.TMP_Text
+SaveMenu	Assets/_Scripts/SaveMenu.cs	/^public class SaveMenu : MonoBehaviour {$/;"	c
 SaveNewFontAsset	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs	/^        void SaveNewFontAsset(Object sourceObject)$/;"	m	class:TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow	file:
 SaveNewFontAssetWithSameName	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs	/^        void SaveNewFontAssetWithSameName(Object sourceObject)$/;"	m	class:TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow	file:
 SaveSpriteAsset	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SpriteAssetImporter.cs	/^        void SaveSpriteAsset(string filePath)$/;"	m	class:TMPro.TMP_SpriteAssetImporter	file:
@@ -2513,18 +2588,32 @@ SpriteDataObject	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtim
 SpriteFrame	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs	/^        public struct SpriteFrame$/;"	s	class:TMPro.SpriteAssetUtilities.TexturePacker
 SpriteInfoDrawer	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/SpriteInfoDrawer.cs	/^    public class SpriteInfoDrawer : PropertyDrawer$/;"	c	namespace:TMPro.EditorUtilities
 SpriteSize	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs	/^        public struct SpriteSize$/;"	s	class:TMPro.SpriteAssetUtilities.TexturePacker
+StandaloneFileBrowser	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        static StandaloneFileBrowser() {$/;"	m	class:SFB.StandaloneFileBrowser	file:
+StandaloneFileBrowser	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^    public class StandaloneFileBrowser {$/;"	c	namespace:SFB
+StandaloneFileBrowserEditor	Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs	/^    public class StandaloneFileBrowserEditor : IStandaloneFileBrowser  {$/;"	c	namespace:SFB
+StandaloneFileBrowserLinux	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        public StandaloneFileBrowserLinux()$/;"	m	class:SFB.StandaloneFileBrowserLinux
+StandaloneFileBrowserLinux	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^    public class StandaloneFileBrowserLinux : IStandaloneFileBrowser {$/;"	c	namespace:SFB
+StandaloneFileBrowserMac	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^    public class StandaloneFileBrowserMac : IStandaloneFileBrowser {$/;"	c	namespace:SFB
+StandaloneFileBrowserWindows	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^    public class StandaloneFileBrowserWindows : IStandaloneFileBrowser {$/;"	c	namespace:SFB
 Standard	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^            Standard,$/;"	e	enum:TMPro.TMP_InputField.ContentType	file:
 Standard	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^            Standard,$/;"	e	enum:TMPro.TMP_InputField.InputType	file:
 Start	Assets/EditMenuBehavior.cs	/^    void Start()$/;"	m	class:EditMenuBehavior	file:
 Start	Assets/MainMenuBehavior.cs	/^    void Start()$/;"	m	class:MainMenuBehavior	file:
 Start	Assets/PopulateMaps.cs	/^    void Start()$/;"	m	class:PopulateMaps	file:
+Start	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^    void Start() {$/;"	m	class:CanvasSampleOpenFileImage	file:
+Start	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^    void Start() {$/;"	m	class:CanvasSampleOpenFileText	file:
+Start	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^    void Start() {$/;"	m	class:CanvasSampleOpenFileTextMultiple	file:
+Start	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    void Start() {$/;"	m	class:CanvasSampleSaveFileImage	file:
+Start	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^    void Start() {$/;"	m	class:CanvasSampleSaveFileText	file:
 Start	Assets/_Scripts/CanvasManager.cs	/^	void Start()$/;"	m	class:CanvasManager	file:
 Start	Assets/_Scripts/InputManager.cs	/^	void Start()$/;"	m	class:InputManager	file:
 Start	Assets/_Scripts/MiniSelectionAnimMgn.cs	/^    private void Start()$/;"	m	class:MiniSelectionAnimMgn	file:
 Start	Assets/_Scripts/Miniature.cs	/^	void Start()$/;"	m	class:Miniature	file:
 Start	Assets/_Scripts/MiniatureManager.cs	/^	void Start()$/;"	m	class:MiniatureManager	file:
+Start	Assets/_Scripts/SaveMenu.cs	/^    private void Start() {$/;"	m	class:SaveMenu	file:
 Start	Assets/_Scripts/TileSelectorAnimMgn.cs	/^    private void Start()$/;"	m	class:TileSelectorAnimMgn	file:
 Start	Assets/_Scripts/ToolbarAnimMgn.cs	/^    private void Start()$/;"	m	class:ToolbarAnimMgn	file:
+Start	Assets/_Scripts/cameraInteraction.cs	/^    void Start()$/;"	m	class:cameraInteraction	file:
 Start	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/ThreadedDelay.cs	/^        public void Start()$/;"	m	class:UnityEditor.PackageManager.UI.ThreadedDelay
 Start	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmBaseOperation.cs	/^        protected void Start()$/;"	m	class:UnityEditor.PackageManager.UI.UpmBaseOperation
 Start	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/LoadingSpinner.cs	/^        public void Start()$/;"	m	class:UnityEditor.PackageManager.UI.LoadingSpinner
@@ -3021,6 +3110,7 @@ Update	Assets/MainMenuBehavior.cs	/^    void Update()$/;"	m	class:MainMenuBehavi
 Update	Assets/PopulateMaps.cs	/^    void Update()$/;"	m	class:PopulateMaps	file:
 Update	Assets/_Scripts/InputManager.cs	/^	void Update()$/;"	m	class:InputManager	file:
 Update	Assets/_Scripts/Miniature.cs	/^	void Update()$/;"	m	class:Miniature	file:
+Update	Assets/_Scripts/cameraInteraction.cs	/^    void Update()$/;"	m	class:cameraInteraction	file:
 Update	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/Package.cs	/^        internal void Update()$/;"	m	class:UnityEditor.PackageManager.UI.Package	file:
 Update	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs	/^            Update,$/;"	e	enum:UnityEditor.PackageManager.UI.PackageDetails.PackageAction	file:
 Update	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs	/^        public void Update()$/;"	m	class:TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow
@@ -3091,6 +3181,9 @@ UpdateVertexData	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtim
 UpdateVertexData	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshProUGUI.cs	/^        public override void UpdateVertexData(TMP_VertexDataUpdateFlags flags)$/;"	m	class:TMPro.TextMeshProUGUI
 Update_WhenCurrentIsLatest_AddOperationIsNotCalled	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Services/Packages/PackageTests.cs	/^        public void Update_WhenCurrentIsLatest_AddOperationIsNotCalled()$/;"	m	class:UnityEditor.PackageManager.UI.Tests.PackageTests
 Update_WhenCurrentIsNotLatest_AddOperationIsCalled	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Services/Packages/PackageTests.cs	/^        public void Update_WhenCurrentIsNotLatest_AddOperationIsCalled()$/;"	m	class:UnityEditor.PackageManager.UI.Tests.PackageTests
+UploadFile	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^    private static extern void UploadFile(string gameObjectName, string methodName, string filte/;"	m	class:CanvasSampleOpenFileImage	file:
+UploadFile	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^    private static extern void UploadFile(string gameObjectName, string methodName, string filte/;"	m	class:CanvasSampleOpenFileText	file:
+UploadFile	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^    private static extern void UploadFile(string gameObjectName, string methodName, string filte/;"	m	class:CanvasSampleOpenFileTextMultiple	file:
 UpmAddOperation	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmAddOperation.cs	/^    internal class UpmAddOperation : UpmBaseOperation, IAddOperation$/;"	c	namespace:UnityEditor.PackageManager.UI
 UpmBaseOperation	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmBaseOperation.cs	/^    internal abstract class UpmBaseOperation : IBaseOperation$/;"	c	namespace:UnityEditor.PackageManager.UI
 UpmListOperation	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmListOperation.cs	/^        public UpmListOperation(bool offlineMode) : base() $/;"	m	class:UnityEditor.PackageManager.UI.UpmListOperation
@@ -3187,8 +3280,14 @@ When_PackageCollection_Update_Fails_Package_Stay_Current	Library/PackageCache/co
 When_PackageCollection_Updates_PackageList_Updates	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/UI/PackageManagerWindowTests.cs	/^        public void When_PackageCollection_Updates_PackageList_Updates()$/;"	m	class:UnityEditor.PackageManager.UI.Tests.PackageManagerWindowTests
 Window	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Common/UITests.cs	/^        private TWindow Window { get; set; }$/;"	p	class:UnityEditor.PackageManager.UI.Tests.TWindow
 WindowClosed	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontPlugin.cs	/^        internal enum CancellationRequestType : byte { None = 0x0, CancelInProgess = 0x1, Window/;"	e	enum:TMPro.EditorUtilities.CancellationRequestType	file:
+WindowWrapper	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        public WindowWrapper(IntPtr handle) { _hwnd = handle; }$/;"	m	class:SFB.WindowWrapper
+WindowWrapper	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^    public class WindowWrapper : IWin32Window {$/;"	c	namespace:SFB
 WordWrapState	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^    public struct WordWrapState$/;"	s	namespace:TMPro
 Words	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Common/PackageSets.cs	/^        private static readonly string[] Words = new[] { "lorem", "ipsum", "dolor", "sit", "amet/;"	f	class:UnityEditor.PackageManager.UI.Tests.PackageSets	file:
+WriteResult	Assets/StandaloneFileBrowser/Sample/BasicSample.cs	/^    public void WriteResult(string path) {$/;"	m	class:BasicSample
+WriteResult	Assets/StandaloneFileBrowser/Sample/BasicSample.cs	/^    public void WriteResult(string[] paths) {$/;"	m	class:BasicSample
+WriteResult	Assets/_Scripts/SaveMenu.cs	/^    public void WriteResult(string path) {$/;"	m	class:SaveMenu
+WriteResult	Assets/_Scripts/SaveMenu.cs	/^    public void WriteResult(string[] paths) {$/;"	m	class:SaveMenu
 XML_TagAttribute	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^    public struct XML_TagAttribute$/;"	s	namespace:TMPro
 [1.0.0] - 2017-11-10	Library/PackageCache/com.unity.package-manager-ui@2.0.3/CHANGELOG.md	/^## [1.0.0] - 2017-11-10$/;"	s
 [1.0.23] - 2017-11-14	Library/PackageCache/com.unity.textmeshpro@1.3.0/CHANGELOG.md	/^## [1.0.23] - 2017-11-14$/;"	s
@@ -3242,15 +3341,27 @@ _HorizontalAlignmentOptions	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scr
 _PackageId	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfo.cs	/^        private string _PackageId;$/;"	f	class:UnityEditor.PackageManager.UI.PackageInfo	file:
 _VerticalAlignmentOptions	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^    public enum _VerticalAlignmentOptions$/;"	g	namespace:TMPro
 _count	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Common/PackageSets.cs	/^        private int _count = 0;$/;"	f	class:UnityEditor.PackageManager.UI.Tests.PackageSets	file:
+_data	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^    private string _data = "Example text created by StandaloneFileBrowser";$/;"	f	class:CanvasSampleSaveFileText	file:
 _doneCallbackAction	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmListOperation.cs	/^        private Action<IEnumerable<PackageInfo>> _doneCallbackAction;$/;"	f	class:UnityEditor.PackageManager.UI.UpmListOperation	file:
 _doneCallbackAction	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmSearchOperation.cs	/^        private Action<IEnumerable<PackageInfo>> _doneCallbackAction;$/;"	f	class:UnityEditor.PackageManager.UI.UpmSearchOperation	file:
 _getSortingLayerUserIdMethod	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_SortingLayerHelper.cs	/^        private static MethodInfo _getSortingLayerUserIdMethod;$/;"	f	class:TMPro.SortingLayerHelper	file:
+_hwnd	Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs	/^        private IntPtr _hwnd;$/;"	f	class:SFB.WindowWrapper	file:
 _instance	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/OperationFactory.cs	/^        private static IOperationFactory _instance;$/;"	f	class:UnityEditor.PackageManager.UI.OperationFactory	file:
 _instance	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Tests/Editor/Common/PackageSets.cs	/^        private static readonly PackageSets _instance = new PackageSets();$/;"	f	class:UnityEditor.PackageManager.UI.Tests.PackageSets	file:
+_openFileCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static Action<string[]> _openFileCb;$/;"	f	class:SFB.StandaloneFileBrowserLinux	file:
+_openFileCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static Action<string[]> _openFileCb;$/;"	f	class:SFB.StandaloneFileBrowserMac	file:
+_openFolderCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static Action<string[]> _openFolderCb;$/;"	f	class:SFB.StandaloneFileBrowserLinux	file:
+_openFolderCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static Action<string[]> _openFolderCb;$/;"	f	class:SFB.StandaloneFileBrowserMac	file:
 _package	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmRemoveOperation.cs	/^        private PackageInfo _package;$/;"	f	class:UnityEditor.PackageManager.UI.UpmRemoveOperation	file:
+_path	Assets/StandaloneFileBrowser/Sample/BasicSample.cs	/^    private string _path;$/;"	f	class:BasicSample	file:
+_path	Assets/_Scripts/SaveMenu.cs	/^    private string _path;$/;"	f	class:SaveMenu	file:
+_platformWrapper	Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs	/^        private static IStandaloneFileBrowser _platformWrapper = null;$/;"	f	class:SFB.StandaloneFileBrowser	file:
 _presenter	Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/HistoryTests.cs	/^        private CollabHistoryPresenter _presenter;$/;"	f	class:UnityEditor.Collaboration.Tests.HistoryTests	file:
+_saveFileCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs	/^        private static Action<string> _saveFileCb;$/;"	f	class:SFB.StandaloneFileBrowserLinux	file:
+_saveFileCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static Action<string> _saveFileCb;$/;"	f	class:SFB.StandaloneFileBrowserMac	file:
 _service	Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/HistoryTests.cs	/^        private TestRevisionsService _service;$/;"	f	class:UnityEditor.Collaboration.Tests.HistoryTests	file:
 _sortingLayerNamesProperty	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_SortingLayerHelper.cs	/^        private static PropertyInfo _sortingLayerNamesProperty;$/;"	f	class:TMPro.SortingLayerHelper	file:
+_textureBytes	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    private byte[] _textureBytes;$/;"	f	class:CanvasSampleSaveFileImage	file:
 _tile	Assets/_Scripts/TileObject.cs	/^	private Tile _tile = default;$/;"	f	class:TileObject	file:
 _tileId	Assets/_Scripts/TileObject.cs	/^	private int _tileId = default;$/;"	f	class:TileObject	file:
 _tileName	Assets/_Scripts/TileObject.cs	/^	private string _tileName = default;$/;"	f	class:TileObject	file:
@@ -3289,8 +3400,6 @@ anim2	Assets/_Scripts/ToolbarAnimMgn.cs	/^    Animator anim2;$/;"	f	class:Toolba
 anim3	Assets/_Scripts/MiniSelectionAnimMgn.cs	/^    Animator anim3;$/;"	f	class:MiniSelectionAnimMgn	file:
 animation	Assets/TileSelectorPanelSlide.cs	/^    private Animator animation;$/;"	f	class:TileSelectorPanelSlide	file:
 app	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^	"app": "http:\/\/www.codeandweb.com\/texturepacker",$/;"	s	object:meta
-app_contents_path	Library/EditorInstance.json	/^	"app_contents_path" : "\/opt\/Unity\/Editor\/Data"$/;"	s
-app_path	Library/EditorInstance.json	/^	"app_path" : "\/opt\/Unity\/Editor\/Unity",$/;"	s
 appid	Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacy.cs	/^            public string appid;$/;"	f	struct:UnityEngine.Analytics.DataPrivacy.UserPostData
 ascII_Left	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontPlugin.cs	/^            public int ascII_Left;$/;"	f	struct:TMPro.EditorUtilities.FT_KerningPair
 ascII_Right	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontPlugin.cs	/^            public int ascII_Right;$/;"	f	struct:TMPro.EditorUtilities.FT_KerningPair
@@ -3349,6 +3458,7 @@ bounds	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text
 builtinPackageDocsUrlKey	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfo.cs	/^        private const string builtinPackageDocsUrlKey = "Scripting API: ";$/;"	f	class:UnityEditor.PackageManager.UI.PackageInfo	file:
 buttonText	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs	/^        public string buttonText$/;"	p	class:UnityEditor.Collaboration.StatusView
 callback	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs	/^        public Action callback$/;"	p	class:UnityEditor.Collaboration.StatusView
+cameraInteraction	Assets/_Scripts/cameraInteraction.cs	/^public class cameraInteraction : MonoBehaviour$/;"	c
 cameraMode	Library/StateCache/SceneView/d0d7f6-cada64ff1a10c5eb88.json	/^{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"aud/;"	o
 cameraMode	Library/StateCache/SceneView/d0d7f6-mainStage.json	/^{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audi/;"	o
 canvasHeight	Assets/_Scripts/CanvasManager.cs	/^	private int canvasHeight = default;$/;"	f	class:CanvasManager	file:
@@ -3556,6 +3666,8 @@ fallbackSourceMaterial	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/
 fallbackSourceMaterial	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SubMeshUI.cs	/^        public Material fallbackSourceMaterial$/;"	p	class:TMPro.TMP_SubMeshUI
 fallbackSpriteAssetPanel	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SpriteAssetEditor.cs	/^            public static bool fallbackSpriteAssetPanel = true;$/;"	f	struct:TMPro.EditorUtilities.TMP_SpriteAssetEditor.UI_PanelState
 fallbackSpriteAssets	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAsset.cs	/^        public List<TMP_SpriteAsset> fallbackSpriteAssets;$/;"	f	class:TMPro.TMP_SpriteAsset
+fileExt	Assets/_Scripts/SaveMenu.cs	/^    private string fileExt = "dat";$/;"	f	class:SaveMenu	file:
+fileName	Assets/_Scripts/SaveMenu.cs	/^    private string fileName;$/;"	f	class:SaveMenu	file:
 filename	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^	"filename": "1f600.png",$/;"	s	object:frames.4
 filename	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^	"filename": "1f601.png",$/;"	s	object:frames.5
 filename	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^	"filename": "1f602.png",$/;"	s	object:frames.6
@@ -4134,9 +4246,9 @@ m_EnvMapMatrix	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/
 m_ExpandCollapseButton	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs	/^        private readonly Button m_ExpandCollapseButton;$/;"	f	class:UnityEditor.Collaboration.CollabHistoryItem	file:
 m_Expanded	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs	/^        private bool m_Expanded;$/;"	f	class:UnityEditor.Collaboration.CollabHistoryItem	file:
 m_ExpandedPrefabGameObjectFileIDs	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	a
-m_ExpandedPrefabGameObjectFileIDs	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	a
+m_ExpandedPrefabGameObjectFileIDs	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[],"m_ScrollY":0./;"	a
 m_ExpandedSceneGameObjectInstanceIDs	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	a
-m_ExpandedSceneGameObjectInstanceIDs	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	a
+m_ExpandedSceneGameObjectInstanceIDs	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[],"m_ScrollY":0./;"	a
 m_FXMatrix	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected Matrix4x4 m_FXMatrix;$/;"	f	class:TMPro.TMP_Text
 m_Factory	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs	/^        ICollabHistoryItemFactory m_Factory;$/;"	f	class:UnityEditor.Collaboration.CollabHistoryPresenter	file:
 m_FetchInProgress	Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs	/^        bool m_FetchInProgress;$/;"	f	class:UnityEditor.Collaboration.CollabHistoryPresenter	file:
@@ -4235,9 +4347,9 @@ m_Keyboard	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_
 m_KeyboardType	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_InputFieldEditor.cs	/^        SerializedProperty m_KeyboardType;$/;"	f	class:TMPro.EditorUtilities.TMP_InputFieldEditor	file:
 m_KeyboardType	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        private TouchScreenKeyboardType m_KeyboardType = TouchScreenKeyboardType.Default;$/;"	f	class:TMPro.TMP_InputField	file:
 m_LastClickedFileID	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	n
-m_LastClickedFileID	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n
+m_LastClickedFileID	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[],"m_ScrollY":0./;"	n
 m_LastClickedInstanceID	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	n
-m_LastClickedInstanceID	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n
+m_LastClickedInstanceID	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[],"m_ScrollY":0./;"	n
 m_LastPosition	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        private Vector2 m_LastPosition;$/;"	f	class:TMPro.TMP_InputField	file:
 m_LayoutElement	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected LayoutElement m_LayoutElement;$/;"	f	class:TMPro.TMP_Text
 m_LayoutQueueLookup	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_UpdateManager.cs	/^        private Dictionary<int, int> m_LayoutQueueLookup = new Dictionary<int, int>();$/;"	f	class:TMPro.TMP_UpdateManager	file:
@@ -4377,7 +4489,7 @@ m_ScrollPosition	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor
 m_ScrollPosition	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        private float m_ScrollPosition;$/;"	f	class:TMPro.TMP_InputField	file:
 m_ScrollSensitivity	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        protected float m_ScrollSensitivity = 1.0f;$/;"	f	class:TMPro.TMP_InputField
 m_ScrollY	Library/StateCache/Hierarchy/265235-cada64ff1a10c5eb88.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[5649672368733777322],"m_ExpandedSceneGameObjectInstanceIDs/;"	n
-m_ScrollY	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-17530,-17202,-1/;"	n
+m_ScrollY	Library/StateCache/Hierarchy/265235-mainStage.json	/^{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[],"m_ScrollY":0./;"	n
 m_ScrollbarScrollSensitivity	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_InputFieldEditor.cs	/^        SerializedProperty m_ScrollbarScrollSensitivity;$/;"	f	class:TMPro.EditorUtilities.TMP_InputFieldEditor	file:
 m_SecondGlyph	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs	/^        private uint m_SecondGlyph;$/;"	f	class:TMPro.KerningPair	file:
 m_SecondGlyphAdjustments	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs	/^        private GlyphValueRecord m_SecondGlyphAdjustments;$/;"	f	class:TMPro.KerningPair	file:
@@ -4920,6 +5032,8 @@ onTextSelection	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime
 onValidateInput	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        public OnValidateInput onValidateInput { get { return m_OnValidateInput; } set { SetProp/;"	p	class:TMPro.TMP_InputField
 onValueChanged	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dropdown.cs	/^        public DropdownEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueCh/;"	p	class:TMPro.TMP_Dropdown
 onValueChanged	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        public OnChangeEvent onValueChanged { get { return m_OnValueChanged; } set { SetProperty/;"	p	class:TMPro.TMP_InputField
+openFileCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static void openFileCb(string result) {$/;"	m	class:SFB.StandaloneFileBrowserMac	file:
+openFolderCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static void openFolderCb(string result) {$/;"	m	class:SFB.StandaloneFileBrowserMac	file:
 operationsInProgress	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageStatusBar.cs	/^        private List<IBaseOperation> operationsInProgress;$/;"	f	class:UnityEditor.PackageManager.UI.PackageStatusBar	file:
 operator !=	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/External/SemVersion.cs	/^        public static bool operator !=(SemVersion left, SemVersion right)$/;"	m	class:Semver.SemVersion
 operator +	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs	/^        public static GlyphValueRecord operator +(GlyphValueRecord a, GlyphValueRecord b)$/;"	m	struct:TMPro.GlyphValueRecord
@@ -4937,6 +5051,11 @@ orthographic	Library/StateCache/SceneView/d0d7f6-cada64ff1a10c5eb88.json	/^{"cam
 orthographic	Library/StateCache/SceneView/d0d7f6-mainStage.json	/^{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audi/;"	b
 outlineColor	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        public Color32 outlineColor$/;"	p	class:TMPro.TMP_Text
 outlineWidth	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        public float outlineWidth$/;"	p	class:TMPro.TMP_Text
+output	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs	/^    public RawImage output;$/;"	f	class:CanvasSampleOpenFileImage
+output	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs	/^    public Text output;$/;"	f	class:CanvasSampleOpenFileText
+output	Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs	/^    public Text output;$/;"	f	class:CanvasSampleOpenFileTextMultiple
+output	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs	/^    public Text output;$/;"	f	class:CanvasSampleSaveFileImage
+output	Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs	/^    public Text output;$/;"	f	class:CanvasSampleSaveFileText
 overflowMode	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        public TextOverflowModes overflowMode$/;"	p	class:TMPro.TMP_Text
 overrideColorTags	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        public bool overrideColorTags$/;"	p	class:TMPro.TMP_Text
 package	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs	/^        private Package package;$/;"	f	class:UnityEditor.PackageManager.UI.PackageDetails	file:
@@ -5011,7 +5130,6 @@ previousItem	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sour
 previousLineAscender	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^        public float previousLineAscender;$/;"	f	struct:TMPro.WordWrapState
 previousLineScale	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^        public float previousLineScale;$/;"	f	struct:TMPro.WordWrapState
 previous_WordBreak	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^        public int previous_WordBreak;$/;"	f	struct:TMPro.WordWrapState
-process_id	Library/EditorInstance.json	/^	"process_id" : 2432,$/;"	n
 readOnly	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs	/^        public bool readOnly { get { return m_ReadOnly; } set { m_ReadOnly = value; } }$/;"	p	class:TMPro.TMP_InputField
 readme	Library/PackageCache/com.unity.analytics@3.2.2/package.json	/^    "readme": "Unity Analytics", $/;"	s
 rect	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextContainer.cs	/^        public Rect rect$/;"	p	class:TMPro.TextContainer
@@ -5461,6 +5579,7 @@ s_UndoRedoCount	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/
 s_XywhVectorLabels	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseShaderGUI.cs	/^        protected static GUIContent[] s_XywhVectorLabels =$/;"	f	class:TMPro.EditorUtilities.TMP_BaseShaderGUI
 s_colorWhite	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs	/^        protected static Color32 s_colorWhite = new Color32(255, 255, 255, 255);$/;"	f	class:TMPro.TMP_Text
 s_defaultFontAsset	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_FontAsset.cs	/^        private static TMP_FontAsset s_defaultFontAsset;$/;"	f	class:TMPro.TMP_FontAsset	file:
+saveFileCb	Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs	/^        private static void saveFileCb(string result) {$/;"	m	class:SFB.StandaloneFileBrowserMac	file:
 scale	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^	"scale": "1",$/;"	s	object:meta
 scale	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextElement.cs	/^        public float scale;$/;"	f	class:TMPro.TMP_TextElement
 scale	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^        public float scale;$/;"	f	struct:TMPro.TMP_CharacterInfo
@@ -5913,7 +6032,6 @@ valueStartIndex	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime
 valueType	Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs	/^        public TagType valueType;$/;"	f	struct:TMPro.XML_TagAttribute
 verified	Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageTag.cs	/^        verified,$/;"	e	enum:UnityEditor.PackageManager.UI.PackageTag	file:
 version	Assets/TextMesh Pro/Sprites/EmojiOne.json	/^	"version": "1.0",$/;"	s	object:meta
-version	Library/EditorInstance.json	/^	"version" : "2018.3.6f1",$/;"	s
 version	Library/PackageCache/com.unity.ads@2.0.8/package.json	/^    "version": "2.0.8"$/;"	s
 version	Library/PackageCache/com.unity.analytics@3.2.2/package.json	/^    "version": "3.2.2"$/;"	s
 version	Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json	/^  "version": "1.2.15",$/;"	s
