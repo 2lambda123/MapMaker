@@ -39,4 +39,9 @@ public class MiniatureManager : MonoBehaviour
 		GameObject newMiniature = Instantiate(miniature, position, Quaternion.identity);
 		miniatures.Add(newMiniature);
 	}
+
+	public void GoToMainMenu()
+	{
+		Application.LoadLevel("_scenes/MainMenuScene");
+	}
 }
