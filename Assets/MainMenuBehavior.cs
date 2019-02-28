@@ -6,10 +6,13 @@ using UnityEngine;
 public class MainMenuBehavior : MonoBehaviour
 {
     public string active_map_name;
+    private SaveMenu save_menu;
 
     // Start is called before the first frame update
     void Start()
-    { }
+    {
+        save_menu = gameObject.AddComponent<SaveMenu>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -43,8 +46,7 @@ public class MainMenuBehavior : MonoBehaviour
     public void Load()
     {
         // TODO: Hook into Stephen's stuff later
-        SaveMenu loader = new SaveMenu();
-        loader.Load();
+        save_menu.Load();
         Application.LoadLevel("_scenes/TileScene");
     }
 
