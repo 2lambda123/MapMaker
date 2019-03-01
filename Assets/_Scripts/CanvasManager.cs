@@ -16,6 +16,8 @@ public class CanvasManager : MonoBehaviour
 	private int canvasHeight = default;
 	[SerializeField]
 	private int canvasWidth = default;
+	[SerializeField]
+	private string mapFilePath = default;
 
 	[Header("Mouse Indicator Parameters")]
 	[Tooltip("The tilemap that will be used to indicate which tile will be editted")]
@@ -30,22 +32,41 @@ public class CanvasManager : MonoBehaviour
 	[SerializeField]
 	private List<TileObject> tileObjects = default;
 
+	[Header("Save Manager")]
+	private SaveMenu saveMenu;
+
 	// Note: Imagine flipping this array vertically to see what it would look like in the tilemap editor
 	private int[,] tilemapArray;
 
 	// Start is called before the first frame update
 	void Start()
 	{
-		// TODO: Set these player preferences from the start menu to adjust the bounds of the tile map
-		PlayerPrefs.SetInt("Canvas Height", 10);
-		PlayerPrefs.SetInt("Canvas Width", 10);
+		// Get a reference to the save menu
+		saveMenu = this.gameObject.GetComponent<SaveMenu>();
 
-		// Retrieve the height and width from the player preferences
-		canvasHeight = PlayerPrefs.GetInt("Canvas Height");
-		canvasWidth = PlayerPrefs.GetInt("Canvas Width");
+		// Retrieve the height and width from the player preferences (by default, if the key does not exist use 64)
+		canvasHeight = PlayerPrefs.GetInt("Canvas Height", 64);
+		Debug.Log(canvasHeight);
+		canvasWidth = PlayerPrefs.GetInt("Canvas Width", 64);
 
-		// Initialize the tilemap array
-		tilemapArray = new int[canvasWidth, canvasHeight];
+		// Adjust the starting position of the camera depending on the size of the canvas
+		Camera.main.transform.transform.SetPositionAndRotation(new Vector3(2.5f * canvasWidth / 2, 2.5f * canvasHeight / 2, -10), Quaternion.identity);
+
+		// Retrieve the map name from player preferences
+		mapFilePath = PlayerPrefs.GetString("Map File Path", "");
+
+		// If there is no map name provided in the player preferences, start a new array
+		if (mapFilePath.Equals(""))
+		{
+			// Initialize the tilemap array
+			tilemapArray = new int[canvasWidth, canvasHeight];
+		}
+		// Else, load a map from the path file in the player preferences
+		else
+		{
+			int[,] tiles = saveMenu.Load(mapFilePath);
+			GenerateTilemap(tiles);
+		}
 	}
 
 	// Sets a tile on the tilemap

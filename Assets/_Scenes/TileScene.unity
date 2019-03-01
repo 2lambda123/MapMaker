@@ -574,7 +574,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 15.55
+  m_fontSize: 14
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -729,7 +729,6 @@ RectTransform:
   - {fileID: 1025883594}
   - {fileID: 1272269365}
   - {fileID: 1522116509}
-  - {fileID: 975566679}
   m_Father: {fileID: 2066361116}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1487,7 +1486,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 21.15
+  m_fontSize: 19
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2570,7 +2569,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 23.5
+  m_fontSize: 21.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3193,6 +3192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3bec517af298684abb0badcf18b5acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3243,7 +3243,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.6, y: 12.6, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6213,7 +6213,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 17.9
+  m_fontSize: 16.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6450,56 +6450,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957693467}
   m_CullTransparentMesh: 0
---- !u!1 &975566678
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 975566679}
-  - component: {fileID: 975566680}
-  m_Layer: 5
-  m_Name: TabSelectorButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &975566679
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 975566678}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 53061309}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &975566680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 975566678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5219f9bedd0954f4389c9cf3b77dc132, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileSelectorPanel: {fileID: 53061308}
-  tileSelectorTab: {fileID: 1755074465}
 --- !u!1 &1025883593
 GameObject:
   m_ObjectHideFlags: 0
@@ -7084,7 +7034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -30}
+  m_AnchoredPosition: {x: 0, y: -29.99997}
   m_SizeDelta: {x: 200, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102265211
@@ -7351,8 +7301,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1524769759}
   m_HandleRect: {fileID: 1524769758}
   m_Direction: 2
-  m_Value: 0.99999887
-  m_Size: 0.43553007
+  m_Value: 1
+  m_Size: 0.43553013
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9608,7 +9558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0005493164}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1334385374
@@ -12123,7 +12073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000015258789}
+  m_AnchoredPosition: {x: 0, y: -0.000045776367}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1705735987
@@ -12822,7 +12772,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 248.27}
+  m_AnchoredPosition: {x: 0, y: 248.26953}
   m_SizeDelta: {x: -400, y: -496.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1798440638
@@ -13413,6 +13363,7 @@ MonoBehaviour:
   canvasTilemap: {fileID: 1629706029}
   canvasHeight: 0
   canvasWidth: 0
+  mapFilePath: 
   indicatorTilemap: {fileID: 363018352}
   mouseIndicatorTile: {fileID: 11400000, guid: 34a75e46b19aaae4298b1831cff54f3a, type: 2}
   activeMouseIndicatorPosition: {x: 0, y: 0, z: 0}
@@ -15145,8 +15096,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1475596305}
   m_HandleRect: {fileID: 1475596304}
   m_Direction: 2
-  m_Value: 0.9999996
-  m_Size: 0.7877862
+  m_Value: 1
+  m_Size: 0.7877863
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
