@@ -72,7 +72,10 @@ public class MainMenuBehavior : MonoBehaviour
         if (orig.Length == 0) {
             return;
         }
-		string new_name = StandaloneFileBrowser.SaveFilePanel("Rename Map As", "", GetCopyName(orig), "dat");
+        string new_name = StandaloneFileBrowser.SaveFilePanel("Rename Map As", "", GetCopyName(orig), "dat");
+        if (new_name.Length == 0) {
+            return;
+        }
         System.IO.File.Move(
             orig,
             new_name
