@@ -64,6 +64,7 @@ public class CanvasManager : MonoBehaviour
 		// Else, load a map from the path file in the player preferences
 		else
 		{
+			saveMenu.WriteResult(mapFilePath);
 			int[,] tiles = saveMenu.Load(mapFilePath);
 			GenerateTilemap(tiles);
 		}
