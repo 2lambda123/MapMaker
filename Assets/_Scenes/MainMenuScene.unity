@@ -439,7 +439,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Large (LxL)\x13"
+  m_Text: "Large\n(1024x1024)\x13\x13"
 --- !u!222 &197462480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1117,7 +1117,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Medium (MxM)
+  m_Text: 'Medium
+
+    (256x256)'
 --- !u!222 &548322681
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1337,7 +1339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2d0cda2c5fe07daaf09ee570b55131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  active_map_name: 
 --- !u!4 &634958367
 Transform:
   m_ObjectHideFlags: 0
@@ -2145,7 +2146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Small (SxS)
+  m_Text: "Small\x13\n(64x64)"
 --- !u!222 &1008242877
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2735,7 +2736,7 @@ MonoBehaviour:
   m_PreferredWidth: -1
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
+  m_FlexibleHeight: 2
   m_LayoutPriority: 1
 --- !u!1 &1325339043
 GameObject:

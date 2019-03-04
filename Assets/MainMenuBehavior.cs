@@ -1,11 +1,15 @@
-﻿using System.Collections;
+﻿using SFB;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
 public class MainMenuBehavior : MonoBehaviour
 {
-    public string active_map_name;
+    private ExtensionFilter[] extensions = new[] {
+        new ExtensionFilter("Map Files", "dat"),
+        new ExtensionFilter("All Files", "*" ),
+    };
     private SaveMenu save_menu;
 
     // Start is called before the first frame update
@@ -25,6 +29,7 @@ public class MainMenuBehavior : MonoBehaviour
         }
         PlayerPrefs.SetInt("Canvas Height", size);
         PlayerPrefs.SetInt("Canvas Width", size);
+        PlayerPrefs.SetString("Map File Path", "");
         Application.LoadLevel("_scenes/TileScene");
     }
 
@@ -45,52 +50,57 @@ public class MainMenuBehavior : MonoBehaviour
 
     public void Load()
     {
-        // TODO: Hook into Stephen's stuff later
-        save_menu.Load();
-        Application.LoadLevel("_scenes/TileScene");
+        string to_load = StandaloneFileBrowser.OpenFilePanel("Load Map", "", "*", false)[0];
+        Debug.Log(to_load);
+        if (to_load.Length > 0) {
+            PlayerPrefs.SetString(
+                "Map File Path",
+                to_load
+            );
+            Application.LoadLevel("_scenes/TileScene");
+        }
+    }
+
+    private string GetCopyName(string path)
+    {
+        return "copy.dat";
     }
 
     public void Rename()
     {
-        if (active_map_name == null) {
+        string orig = StandaloneFileBrowser.OpenFilePanel("Rename Map", "", "*", false)[0];
+        if (orig.Length == 0) {
             return;
         }
-        string new_map_name = "blah.json";
-        string new_map_location = Path.Combine(
-            ".",
-            new_map_name
-        );
+		string new_name = StandaloneFileBrowser.SaveFilePanel("Rename Map As", "", GetCopyName(orig), "dat");
         System.IO.File.Move(
-            active_map_name,
-            new_map_location
+            orig,
+            new_name
         );
-        active_map_name = new_map_location;
     }
 
     public void Duplicate()
     {
-        if (active_map_name == null) {
+        string orig = StandaloneFileBrowser.OpenFilePanel("Delete Map", "", "*", false)[0];
+        if (orig.Length == 0) {
             return;
         }
-        string new_map_name = "blah.json";
-        string new_map_location = Path.Combine(
-            ".",
-            new_map_name
-        );
         System.IO.File.Copy(
-            active_map_name, 
-            new_map_location
+            orig, 
+            GetCopyName(orig)
         );
-        active_map_name = new_map_location;
     }
 
     public void Delete()
     {
-        if (active_map_name == null) {
-            return;
+        string[] to_delete = StandaloneFileBrowser.OpenFilePanel("Delete Map", "", "*", true);
+        foreach (string file in to_delete) {
+            if (file.Length > 0) {
+                System.IO.File.Delete(
+                    file
+                );
+            }
         }
-        System.IO.File.Delete(active_map_name);
-        active_map_name = null;
     }
 
     public void Quit()
