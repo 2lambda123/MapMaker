@@ -8,7 +8,7 @@ public class MiniatureManager : MonoBehaviour
 
 	[SerializeField]
 	[Tooltip("A list of miniatures in the scene")]
-	private List<GameObject> miniatures;
+	private List<GameObject> miniatures = new List<GameObject>();
 
 	void Start()
 	{
