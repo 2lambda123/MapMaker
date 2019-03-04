@@ -278,7 +278,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TOUS'S TILES
+  m_Text: "TOUS'\x13\x13 TILES"
 --- !u!222 &107305983
 CanvasRenderer:
   m_ObjectHideFlags: 0
