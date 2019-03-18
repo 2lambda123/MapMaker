@@ -128,21 +128,25 @@ public class InputManager : MonoBehaviour
 		}
 	}
 
+	public string EditorMode
+	{
+		get { return editorMode; }
+		set { editorMode = value; }
+	}
+
+	// === TILEMAP FUNCTIONALITY === //
+
 	// Change the tile that is currently selected
 	public void SelectTile(TileObject tile)
 	{
+		// Change the editor mode to SELECT automatically when the user selects a tile
+		editorMode = "PAINT";
+
 		// Set the left selected tile
 		leftSelectedTile = tile;
 
 		// Set the left selected tile image
-		if (tile.TileName.Equals("Eraser"))
-		{
-			leftSelectedTileImage.sprite = eraserSprite;
-		}
-		else
-		{
-			leftSelectedTileImage.sprite = tile.Tile.sprite;
-		}
+		leftSelectedTileImage.sprite = tile.Tile.sprite;
 	}
 
 	// Swap the left and right selected tiles
@@ -157,11 +161,5 @@ public class InputManager : MonoBehaviour
 		Sprite tempImage = rightSelectedTileImage.sprite;
 		rightSelectedTileImage.sprite = leftSelectedTileImage.sprite;
 		leftSelectedTileImage.sprite = tempImage;
-	}
-
-	public string EditorMode
-	{
-		get { return editorMode; }
-		set { editorMode = value; }
 	}
 }

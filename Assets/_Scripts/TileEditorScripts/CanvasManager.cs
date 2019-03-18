@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.EventSystems;
 
-// This class is used to manage the tilemap present in the scene
+// This class is used to manage the tilemap and miniatures present in the scene
 
 public class CanvasManager : MonoBehaviour
 {
+	private InputManager inputManager = null;
+
 	[Header("Tilemap Parameters")]
 	[Tooltip("The tilemap that will be edited in the scene")]
 	[SerializeField]
@@ -19,6 +21,9 @@ public class CanvasManager : MonoBehaviour
 	[SerializeField]
 	private string mapFilePath = default;
 
+	// Note: Imagine flipping this array vertically to see what it would look like in the tilemap editor
+	private int[,] tilemapArray;
+
 	[Header("Mouse Indicator Parameters")]
 	[Tooltip("The tilemap that will be used to indicate which tile will be editted")]
 	[SerializeField]
@@ -28,19 +33,24 @@ public class CanvasManager : MonoBehaviour
 	[SerializeField]
 	private Vector3Int activeMouseIndicatorPosition = default;
 
-	[Header("Tile Objects")]
+	[Header("Miniature Parameters")]
 	[SerializeField]
-	private List<TileObject> tileObjects = default;
+	[Tooltip("A list of miniatures in the scene")]
+	private List<GameObject> miniatures = new List<GameObject>();
+
+	[Header("Libraries")]
+	[SerializeField]
+	private TileLibrary tileLibrary = null;
 
 	[Header("Save Manager")]
 	private SaveMenu saveMenu;
 
-	// Note: Imagine flipping this array vertically to see what it would look like in the tilemap editor
-	private int[,] tilemapArray;
-
 	// Start is called before the first frame update
 	void Start()
 	{
+		// Get the reference to the input manager
+		inputManager = this.gameObject.GetComponent<InputManager>();
+
 		// Get a reference to the save menu
 		saveMenu = this.gameObject.GetComponent<SaveMenu>();
 
@@ -69,6 +79,8 @@ public class CanvasManager : MonoBehaviour
 			GenerateTilemap(tiles);
 		}
 	}
+
+	// === TILEMAP FUNCTIONALITY === //
 
 	// Sets a tile on the tilemap
 	public void SetTile(TileObject tile)
@@ -103,6 +115,38 @@ public class CanvasManager : MonoBehaviour
 			// Debug.Log("Clicked Cell -> Out of Bounds");
 		}
 	}
+
+	// Generate a tilemap based on an array of tile ids
+	public void GenerateTilemap(int[,] ids)
+	{
+		// Set the current tilemap array to the array of ids provided
+		tilemapArray = ids;
+
+		// Loop through the array and set the tiles in the tilemap
+		for (int i = 0; i < tilemapArray.GetLength(0); i++)
+		{
+			for (int j = 0; j < tilemapArray.GetLength(1); j++)
+			{
+				TileObject tileObject = tileLibrary.GetTile(tilemapArray[i, j]);
+				if (tileObject.Tile != null)
+				{
+					canvasTilemap.SetTile(new Vector3Int(i, j, 0), tileObject.Tile);
+				}
+				else
+				{
+					canvasTilemap.SetTile(new Vector3Int(i, j, 0), null);
+				}
+			}
+		}
+	}
+
+	// Return the array representation of the tilemap
+	public int[,] GetTilemap()
+	{
+		return tilemapArray;
+	}
+
+	// === MOUSE INDICATOR FUNCTIONALITY === //
 
 	// Sets a mouse indicator on a separate tilemap
 	public void SetMouseIndicator()
@@ -145,55 +189,43 @@ public class CanvasManager : MonoBehaviour
 
 	}
 
-	// Generate a tilemap based on an array of tile ids
-	public void GenerateTilemap(int[,] ids)
-	{
-		// Set the current tilemap array to the array of ids provided
-		tilemapArray = ids;
+	// === MINIATURE FUNCTIONALITY === //
 
-		// Loop through the array and set the tiles in the tilemap
-		for (int i = 0; i < tilemapArray.GetLength(0); i++)
-		{
-			for (int j = 0; j < tilemapArray.GetLength(1); j++)
-			{
-				TileObject tileObject = FindTileObject(tilemapArray[i, j]);
-				if (tileObject.Tile != null)
-				{
-					canvasTilemap.SetTile(new Vector3Int(i, j, 0), tileObject.Tile);
-				}
-				else
-				{
-					canvasTilemap.SetTile(new Vector3Int(i, j, 0), null);
-				}
-			}
-		}
+	// Create a prefab miniature in the scene and have it follow the user's mouse (This function is used for the buttons in the scene)
+	public void CreateMiniature(GameObject miniature)
+	{
+		// Change the editor mode to SELECT automatically when the user creates a miniature
+		inputManager.EditorMode = "SELECT";
+
+		// Instantiate the miniature at the position of the user's mouse
+		Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		GameObject newMiniature = Instantiate(miniature, new Vector3(mousePosition.x, mousePosition.y, 0), Quaternion.identity);
+
+		// Add the miniature to the list of miniatures in the scene
+		miniatures.Add(newMiniature);
+
+		// Pick up the miniature after it is created
+		newMiniature.GetComponent<Miniature>().PickUp();
 	}
 
-	// Return the array representation of the tilemap
-	public int[,] GetTilemap()
+	// Create a miniature in the scene at a specific position and with predefined attributes (Used for loading in miniatures from save one at a time)
+	public void CreateMiniature(GameObject miniature, Vector3 position, Dictionary<string, string> attributes)
 	{
-		return tilemapArray;
+		// Instantiate the miniature at the given position
+		GameObject newMiniature = Instantiate(miniature, position, Quaternion.identity);
+
+		// Set the attributes of the miniature
+		newMiniature.GetComponent<Miniature>().SetAttributes(attributes);
+
+		// Add the miniature to the list of miniatures in the scene
+		miniatures.Add(newMiniature);
 	}
 
-	// Find the corresponding tile object based on the provided id
-	private TileObject FindTileObject(int id)
+	// Return the list of miniatures in the canvas
+	public List<GameObject> GetMiniatures()
 	{
-		for (int i = 0; i < tileObjects.Count; i++)
-		{
-			if (tileObjects[i].TileId == id)
-			{
-				return tileObjects[i];
-			}
-		}
-		// Return NULL if no tile object was found
-		return null;
+		return miniatures;
 	}
 
-	// DEBUG FUNCTION REMOVE LATER
-	public void TestSaveAndLoad()
-	{
-		Debug.Log("Test save and load");
-		GenerateTilemap(GetTilemap());
-	}
 }
 
