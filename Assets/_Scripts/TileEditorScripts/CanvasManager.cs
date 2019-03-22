@@ -41,6 +41,8 @@ public class CanvasManager : MonoBehaviour
 	[Header("Libraries")]
 	[SerializeField]
 	private TileLibrary tileLibrary = null;
+	[SerializeField]
+	private MiniatureLibrary miniatureLibrary = null;
 
 	[Header("Save Manager")]
 	private SaveMenu saveMenu;
@@ -214,16 +216,22 @@ public class CanvasManager : MonoBehaviour
 	}
 
 	// Create a miniature in the scene at a specific position and with predefined attributes (Used for loading in miniatures from save one at a time)
-	public void CreateMiniature(GameObject miniature, Vector3 position, Dictionary<string, string> attributes)
+	public void CreateMiniature(int miniatureId, Vector3 position, Dictionary<string, string> attributes)
 	{
 		// Instantiate the miniature at the given position
-		GameObject newMiniature = Instantiate(miniature, position, Quaternion.identity);
+		GameObject newMiniature = Instantiate(miniatureLibrary.GetMiniature(miniatureId), position, Quaternion.identity);
 
 		// Set the attributes of the miniature
 		newMiniature.GetComponent<Miniature>().SetAttributes(attributes);
 
 		// Add the miniature to the list of miniatures in the scene
 		miniatures.Add(newMiniature);
+	}
+
+	// Delete a miniature in the scene
+	public void DeleteMiniature(GameObject miniature)
+	{
+		miniatures.Remove(miniature);
 	}
 
 	// Return the list of miniatures in the canvas
