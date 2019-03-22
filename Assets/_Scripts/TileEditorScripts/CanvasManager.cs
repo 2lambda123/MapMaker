@@ -194,18 +194,23 @@ public class CanvasManager : MonoBehaviour
 	// Create a prefab miniature in the scene and have it follow the user's mouse (This function is used for the buttons in the scene)
 	public void CreateMiniature(GameObject miniature)
 	{
-		// Change the editor mode to SELECT automatically when the user creates a miniature
-		inputManager.EditorMode = "SELECT";
+		// Only create a new miniature when no other miniature is selected
+		if (inputManager.SelectedMiniature == null)
+		{
+			// Change the editor mode to SELECT automatically when the user creates a miniature
+			inputManager.EditorMode = "SELECT";
 
-		// Instantiate the miniature at the position of the user's mouse
-		Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-		GameObject newMiniature = Instantiate(miniature, new Vector3(mousePosition.x, mousePosition.y, 0), Quaternion.identity);
+			// Instantiate the miniature at the position of the user's mouse
+			Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			GameObject newMiniature = Instantiate(miniature, new Vector3(mousePosition.x, mousePosition.y, 0), Quaternion.identity);
 
-		// Add the miniature to the list of miniatures in the scene
-		miniatures.Add(newMiniature);
+			// Add the miniature to the list of miniatures in the scene
+			miniatures.Add(newMiniature);
 
-		// Pick up the miniature after it is created
-		newMiniature.GetComponent<Miniature>().PickUp();
+			// Pick up the miniature after it is created
+			Debug.Log("Picking up new miniature");
+			newMiniature.GetComponent<Miniature>().PickUp();
+		}
 	}
 
 	// Create a miniature in the scene at a specific position and with predefined attributes (Used for loading in miniatures from save one at a time)

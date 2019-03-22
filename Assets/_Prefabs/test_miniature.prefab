@@ -98,6 +98,7 @@ MonoBehaviour:
   clickedPos: {x: 0, y: 0, z: 0}
   startPos: {x: 0, y: 0, z: 0}
   offset: {x: 0, y: 0, z: 0}
+  miniatureId: 0
 --- !u!58 &3281023610417474334
 CircleCollider2D:
   m_ObjectHideFlags: 0

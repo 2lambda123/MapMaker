@@ -7138,7 +7138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -29.999939}
+  m_AnchoredPosition: {x: 0, y: -30}
   m_SizeDelta: {x: 200, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102265211
@@ -13436,7 +13436,7 @@ MonoBehaviour:
   leftSelectedTileImage: {fileID: 1531180828}
   rightSelectedTile: {fileID: 11400000, guid: 0c3da6a597fd2f049be9260f6eb59968, type: 2}
   rightSelectedTileImage: {fileID: 1155174068}
-  eraserSprite: {fileID: 21300000, guid: 7874be78d23811640b2414c7d4aa60c6, type: 3}
+  selectedMiniature: {fileID: 0}
   eraseTile: {fileID: 11400000, guid: f852d019b9877e44fa203350a1c42bd1, type: 2}
   mousePressStartedOnUI: 0
 --- !u!4 &1930196300

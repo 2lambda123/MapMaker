@@ -26,9 +26,11 @@ public class InputManager : MonoBehaviour
 	[SerializeField]
 	private Image rightSelectedTileImage = default;
 
-	[Header("Erase Mode")]
+	[Header("Miniature Variables")]
 	[SerializeField]
-	private Sprite eraserSprite = default;
+	private GameObject selectedMiniature = null;
+
+	[Header("Erase Mode")]
 	[SerializeField]
 	private TileObject eraseTile = default;
 
@@ -132,6 +134,12 @@ public class InputManager : MonoBehaviour
 	{
 		get { return editorMode; }
 		set { editorMode = value; }
+	}
+
+	public GameObject SelectedMiniature
+	{
+		get { return selectedMiniature; }
+		set { selectedMiniature = value; }
 	}
 
 	// === TILEMAP FUNCTIONALITY === //

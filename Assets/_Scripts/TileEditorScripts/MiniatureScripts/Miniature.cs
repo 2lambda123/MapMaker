@@ -22,8 +22,8 @@ public class Miniature : MonoBehaviour
 	private int miniatureId = 0;
 	private Dictionary<string, string> miniatureAttributes = new Dictionary<string, string>();
 
-	// Start is called before the first frame update
-	void Start()
+	// Get the input manager when the miniature is created
+	void Awake()
 	{
 		// Get the reference to the input manager
 		inputManager = GameObject.FindObjectOfType<InputManager>();
@@ -45,10 +45,15 @@ public class Miniature : MonoBehaviour
 	// Interact with the miniature
 	public void OnMouseOver()
 	{
-		// Only allow miniatures to be moved in play mode during a left click
-		if (inputManager.EditorMode.Equals("SELECT") && Input.GetMouseButtonUp(0))
+		// Only pick up a miniature if not other miniature is selected
+		if (inputManager.SelectedMiniature == null && inputManager.EditorMode.Equals("SELECT") && Input.GetMouseButtonUp(0))
 		{
 			PickUp();
+		}
+		// Only call the drop function on the currently selected miniature
+		else if (inputManager.SelectedMiniature == this.gameObject && inputManager.EditorMode.Equals("SELECT") && Input.GetMouseButtonUp(0))
+		{
+			Drop();
 		}
 		// Bring up the miniature tooltip when the user right clicks on it
 		else if (inputManager.EditorMode.Equals("SELECT") && Input.GetMouseButtonUp(1))
@@ -65,8 +70,17 @@ public class Miniature : MonoBehaviour
 		clickedPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		offset = transform.position - clickedPos;
 
-		// Flag the miniature as being picked up or not
-		isPickedUp = !isPickedUp;
+		// Flag the miniature as being picked up
+		isPickedUp = true;
+		inputManager.SelectedMiniature = this.gameObject;
+	}
+
+	// Drop the miniature
+	public void Drop()
+	{
+		// Flag the miniature as being dropped
+		isPickedUp = false;
+		inputManager.SelectedMiniature = null;
 	}
 
 	// === Miniature Attributes Functionality === //
