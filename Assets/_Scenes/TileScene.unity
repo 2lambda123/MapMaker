@@ -447,7 +447,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 30145229}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 9096909471781338017, guid: 436808ca3533fd044b75fb5f516a5468,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &30145229
@@ -574,7 +586,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 13.95
+  m_fontSize: 14
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1486,7 +1498,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 18.95
+  m_fontSize: 19
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2569,7 +2581,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 21.05
+  m_fontSize: 21.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2855,7 +2867,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 449429596}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3894468428823435915, guid: 5e58fac301c8f9f47979470819773f65,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &449429596
@@ -4338,7 +4362,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 632058964}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1256645167359979358, guid: 491c30403483b144bae65152ed837fef,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &632058964
@@ -4659,7 +4695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 682494413}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7620203911249283859, guid: ee6b3386706c13f49a84074789ef4bfa,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &682494413
@@ -4776,7 +4824,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 685854156}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4064315068540773664, guid: e14511fa64045ab40bf8cda28d7b1826,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &685854156
@@ -4893,7 +4953,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 690219645}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5915813017695017651, guid: 0e3fcdeed00d9e44d893adf72a25e342,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &690219645
@@ -5815,7 +5887,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 913550861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7419047351130739758, guid: 7ebc146fcbf41d04eb15e25d11fa4fd5,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &913550861
@@ -5932,7 +6016,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 926257707}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1605496010615429960, guid: 3da1c6a6202ab2e48a607713a658212a,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &926257707
@@ -6317,7 +6413,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16.05
+  m_fontSize: 16.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6514,7 +6610,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 957693470}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3257248486550199135, guid: f46001adb98ef6a4ebb5791b462b261f,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &957693470
@@ -7287,7 +7395,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1107075832}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8696622841602109650, guid: cedc54cce6cb25045a79f42e961618f1,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1107075832
@@ -7406,7 +7526,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1524769758}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.43553013
+  m_Size: 0.4355301
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7656,7 +7776,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1152292483}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3555772391697542271, guid: ca6d37b4a708c2a48ba21554b2ba7e54,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1152292483
@@ -7847,7 +7979,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1163647628}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1396885835845459139, guid: ea23322f8024d5849acb9bd052ec3186,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1163647628
@@ -8129,7 +8273,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1205598937}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 6623570997606136572, guid: 8a0a1e4aeecd5794a9c53e46858af736,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1205598937
@@ -8374,7 +8530,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1233481727}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4960018662575226411, guid: 8c197043f0f86274b95e51444be9a11d,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1233481727
@@ -8651,7 +8819,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1234967454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5732425901249644586, guid: cbdc6a490d3df1747a65073eb1fe4cbf,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1234967454
@@ -8768,7 +8948,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1248343159}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1498608065591193220, guid: c527a9dcbc46a364bb6f79ca42786575,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1248343159
@@ -9123,7 +9315,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1272703057}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7612030416796055089, guid: bfeb815e88c984a43bca0f1621804acf,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1272703057
@@ -9780,7 +9984,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1414360031}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1857985938644196258, guid: ea5c26ab00a1d134ba7001ea6424fc24,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1414360031
@@ -9897,7 +10113,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1440366678}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5919252270967606856, guid: 4770ed92dc97ed9418f3590bdd4d3d75,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1440366678
@@ -10321,7 +10549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 92, y: 0}
   m_SizeDelta: {x: 184, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1485852038
@@ -12100,7 +12328,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 92, y: 0}
   m_SizeDelta: {x: 184, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1667612602
@@ -12179,7 +12407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 138.99995}
+  m_AnchoredPosition: {x: 0, y: 0.000015258789}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1705735987
@@ -12425,7 +12653,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1714970113}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 6433521421895254823, guid: 692eac79dd4c54846a38387ef2666f5d,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1714970113
@@ -13026,7 +13266,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1846710264}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4988157831554826659, guid: 349581004ff355d4dad9d246d2c056e0,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1846710264
@@ -13565,7 +13817,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1930517778}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 6069558971283696408, guid: 36034b865e783694ea481bf470f13b80,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1930517778
@@ -13682,7 +13946,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1931481130}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4967299512350031442, guid: 91216abd7dd74f04db35eafc7200bc08,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1931481130
@@ -13799,7 +14075,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1961310334}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3785669692512031655, guid: 0a934bfa755d04345876f24e6b6d5685,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1961310334
@@ -14302,7 +14590,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1988039800}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5842766230751001970, guid: a1bf6363108491f4098e6e642005b234,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1988039800
@@ -14548,7 +14848,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2020788162}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8784643788107618384, guid: eab68ba9b340d3149aa3bde2d77a249c,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2020788162
@@ -14794,7 +15106,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2042017077}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 319539678548418446, guid: 8b8ed6ac706bb1444a6028d9a45f8970,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2042017077
@@ -15040,7 +15364,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2052612748}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7723608396718726800, guid: 772b17abf6e283540803f82c1557b615,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2052612748
@@ -15159,7 +15495,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1475596304}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.78778636
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -15510,7 +15846,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2106069013}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930196301}
+        m_MethodName: CreateMiniature
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1323316965164115787, guid: 0abf73734c6e4bf45a415628aad4aed3,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2106069013
