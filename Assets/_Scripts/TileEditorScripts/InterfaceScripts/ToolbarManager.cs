@@ -38,6 +38,10 @@ public class ToolbarManager : MonoBehaviour
 			isOpen2 = false;
 			ToolbarSlideOut();
 		}
+        else
+        {
+            ;//do nothing
+        }
 	}
 
 	public void ToolbarSlideOut()

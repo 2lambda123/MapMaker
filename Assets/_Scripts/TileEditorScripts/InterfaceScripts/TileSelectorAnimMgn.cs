@@ -37,6 +37,10 @@ public class TileSelectorAnimMgn : MonoBehaviour
             isOpen1 = false;
             slideOut1();
         }
+        else
+        {
+            ;//do nothing
+        }
     }
 
     public void slideOut1()
