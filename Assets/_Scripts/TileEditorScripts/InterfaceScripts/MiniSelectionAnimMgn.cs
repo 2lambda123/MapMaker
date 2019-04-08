@@ -37,6 +37,10 @@ public class MiniSelectionAnimMgn : MonoBehaviour
             isOpen3 = false;
             slideOut3();
         }
+        else
+        {
+            ;//do nothing
+        }
     }
 
     public void slideOut3()
