@@ -11,6 +11,7 @@ public class cameraInteraction : MonoBehaviour
 	private int maxZoom = 3;
 	[SerializeField]
 	private int minZoom = 40;
+    bool moveable = true;
 
 	private int canvasHeight = default;
 	private int canvasWidth = default;
@@ -30,69 +31,81 @@ public class cameraInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
 	{
-		//move camera directionally
-		//conditional statements for each of the arrow and "w,a,s,d" keys
-		if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
-		{
-			//Debug.Log(Camera.main.transform.position[1]);
-			//Debug.Log("up arrow");
-			if (Camera.main.transform.position[1] < canvasHeight * TILE_SIZE)
-			{
-                Debug.Log("speed = " + speed);
-				transform.Translate(Vector2.up * speed * Time.deltaTime);
-                
-			}
-		}
-		if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
-		{
-			//Debug.Log("down arrow");
-			if (Camera.main.transform.position[1] > 0)
-			{
-				transform.Translate(Vector2.down * speed * Time.deltaTime);
-			}
-		}
-		if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-		{
-			//Debug.Log("right arrow");
-			if (Camera.main.transform.position[0] < canvasWidth * TILE_SIZE)
-			{
-				transform.Translate(Vector2.right * speed * Time.deltaTime);
-			}
-		}
-		if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-		{
-			//Debug.Log("left arrow");
-			if (Camera.main.transform.position[0] > 0)
-			{
-				transform.Translate(Vector2.left * speed * Time.deltaTime);
-			}
-		}
-
-		//zoom camera with key presses "-" decrement, "=" for increment
-		if (Input.GetKey(KeyCode.Equals))
-		{
-			//Debug.Log("plus");
-			if (Camera.main.orthographicSize > maxZoom)
-			{
-				Camera.main.orthographicSize -= 1;
-			}
-
-
-		}
-		if (Input.GetKey(KeyCode.Minus))
-		{
-            //Debug.Log("minus");
-            if (Camera.main.orthographicSize < minZoom)
+        //find out if the user has a miniUI open
+       
+        //Debug.Log(isVis);
+        //only move camera if no miniature libary is closed
+        if (moveable)
+        {
+            //move camera directionally
+            //conditional statements for each of the arrow and "w,a,s,d" keys
+            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
             {
-                Camera.main.orthographicSize += 1;
+                //Debug.Log(Camera.main.transform.position[1]);
+                //Debug.Log("up arrow");
+                if (Camera.main.transform.position[1] < canvasHeight * TILE_SIZE)
+                {
+                    Debug.Log("speed = " + speed);
+                    transform.Translate(Vector2.up * speed * Time.deltaTime);
+
+                }
             }
-            else {
-                
+            if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+            {
+                //Debug.Log("down arrow");
+                if (Camera.main.transform.position[1] > 0)
+                {
+                    transform.Translate(Vector2.down * speed * Time.deltaTime);
+                }
+            }
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+            {
+                //Debug.Log("right arrow");
+                if (Camera.main.transform.position[0] < canvasWidth * TILE_SIZE)
+                {
+                    transform.Translate(Vector2.right * speed * Time.deltaTime);
+                }
+            }
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+            {
+                //Debug.Log("left arrow");
+                if (Camera.main.transform.position[0] > 0)
+                {
+                    transform.Translate(Vector2.left * speed * Time.deltaTime);
+                }
             }
 
-		}
+            //zoom camera with key presses "-" decrement, "=" for increment
+            if (Input.GetKey(KeyCode.Equals))
+            {
+                //Debug.Log("plus");
+                if (Camera.main.orthographicSize > maxZoom)
+                {
+                    Camera.main.orthographicSize -= 1;
+                }
+
+
+            }
+            if (Input.GetKey(KeyCode.Minus))
+            {
+                //Debug.Log("minus");
+                if (Camera.main.orthographicSize < minZoom)
+                {
+                    Camera.main.orthographicSize += 1;
+                }
+                else
+                {
+
+                }
+            }
+        }
 
 	}
+
+    public void setMove(bool b) {
+        moveable = b;
+    }
+
 
     public float increaseSpeed {
         get { return speed; }

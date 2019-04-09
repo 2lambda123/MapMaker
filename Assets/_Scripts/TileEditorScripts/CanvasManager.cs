@@ -232,6 +232,7 @@ public class CanvasManager : MonoBehaviour
 	public void DeleteMiniature(GameObject miniature)
 	{
 		miniatures.Remove(miniature);
+        Debug.Log("we got there");
 	}
 
 	// Return the list of miniatures in the canvas

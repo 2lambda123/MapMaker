@@ -21,12 +21,18 @@ public class Miniature : MonoBehaviour
 	[SerializeField]
 	private int miniatureId = 0;
 	private Dictionary<string, string> miniatureAttributes = new Dictionary<string, string>();
+    private bool visible = false;
+    public GameObject miniMenu;
+    private cameraInteraction cameraMove;
 
 	// Get the input manager when the miniature is created
 	void Awake()
 	{
 		// Get the reference to the input manager
 		inputManager = GameObject.FindObjectOfType<InputManager>();
+        miniMenu = GameObject.Find("MiniatureInfo");
+        cameraMove = GameObject.Find("Main Camera").GetComponent<cameraInteraction>();
+        miniMenu.SetActive(visible);
 	}
 
 	// Update is called once per frame
@@ -35,10 +41,14 @@ public class Miniature : MonoBehaviour
 		// Follow the user's mouse whenever the miniature is picked up
 		if (isPickedUp)
 		{
-			mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			transform.position = mousePosition + offset;
 		}
-	}
+
+        //debugging
+        bool thisVisible = getVisible();
+        miniMenu.SetActive(thisVisible);
+    }
 
 	// === Miniature Movement Functionality === //
 
@@ -46,7 +56,7 @@ public class Miniature : MonoBehaviour
 	public void OnMouseOver()
 	{
 		// Only pick up a miniature if not other miniature is selected
-		if (inputManager.SelectedMiniature == null && inputManager.EditorMode.Equals("SELECT") && Input.GetMouseButtonUp(0))
+		if (inputManager.SelectedMiniature == null && inputManager.EditorMode.Equals("SELECT") && Input.GetMouseButtonUp(0) && visible == false)
 		{
 			PickUp();
 		}
@@ -58,7 +68,11 @@ public class Miniature : MonoBehaviour
 		// Bring up the miniature tooltip when the user right clicks on it
 		else if (inputManager.EditorMode.Equals("SELECT") && Input.GetMouseButtonUp(1))
 		{
-			// TODO: Implement tooltip stuff
+            // TODO: Implement tooltip stuff
+            setVisible(true);
+
+            Debug.Log("right click detected");
+
 		}
 	}
 
@@ -114,6 +128,29 @@ public class Miniature : MonoBehaviour
 		// Attempt to update the rendering of the miniature's sprite
 		UpdateMiniatureRender();
 	}
+
+    public void setVisible(bool vis) {
+        visible = vis;
+        cameraMove.setMove(!visible);
+    }
+
+    public bool getVisible() {
+        return visible;
+    }
+    // make menu none active, ie not visible after "x" button pressed
+    public void closeMenu() {
+        setVisible(false);
+    }
+
+    //delete miniature after pressing "delete button"
+    public void deleteMini() {
+        CanvasManager cm = new CanvasManager();
+        GameObject miniature = this.gameObject;
+        Debug.Log("selected miniature " + miniature);
+        cm.DeleteMiniature(miniature);
+        Destroy(miniature);
+
+    }
 
 	// Update the rendering of the miniature depending on the attributes assigned to the miniature
 	public void UpdateMiniatureRender()
