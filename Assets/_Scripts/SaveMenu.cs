@@ -67,14 +67,14 @@ public class SaveMenu : MonoBehaviour
 	}
 
 	//loads file selected given a path, binary int[,]
-	public int[,] Load(string path)
+	public void Load(string path)
 	{
+        _path = path;
 		BinaryFormatter binaryFormatter = new BinaryFormatter();
 		using (FileStream fileStream = File.Open(_path, FileMode.Open))
 		{
 			int[,] tiles = (int[,])binaryFormatter.Deserialize(fileStream);
 			gameObject.GetComponent<CanvasManager>().GenerateTilemap(tiles);
-			return tiles;
 		}
 	}
 
