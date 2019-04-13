@@ -26,7 +26,12 @@ public class SaveMenu : MonoBehaviour
 	// opens up the save as menu
 	public void SaveAs()
 	{
-		_path = StandaloneFileBrowser.SaveFilePanel("Save Map As", "", fileName, fileExt);
+		string temp_path = StandaloneFileBrowser.SaveFilePanel("Save Map As", "", fileName, fileExt);
+        if (temp_path == "") {
+            Debug.Log("Canceled save");
+            return;
+        }
+        _path = temp_path;
 		Debug.Log("Save:" + _path);
 		Save();
 	}
