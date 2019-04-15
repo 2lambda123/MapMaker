@@ -76,6 +76,7 @@ public class Miniature : MonoBehaviour
 		{
 			miniMenu.SetActive(visible);
 		}
+		UpdateMiniatureRender();
 	}
 
 	// Update is called once per frame
@@ -155,6 +156,7 @@ public class Miniature : MonoBehaviour
 	public void SetAttributes(Dictionary<string, string> attributes)
 	{
 		miniatureAttributes = attributes;
+		UpdateMiniatureRender();
 	}
 
 	// Get the attributes of the miniature
@@ -180,6 +182,12 @@ public class Miniature : MonoBehaviour
         Debug.Log(miniatureAttributes[name]);
 
 		// Attempt to update the rendering of the miniature's sprite
+		UpdateMiniatureRender();
+	}
+
+	public void SetAttribute(string name, string value)
+	{
+		miniatureAttributes[name] = value;
 		UpdateMiniatureRender();
 	}
 
@@ -220,85 +228,96 @@ public class Miniature : MonoBehaviour
 
 	}
 
+	public void updateNameTag(string name)
+	{
+		if (name == "") {
+		}
+		else {
+		}
+	}
+
+	public void updateSize(string size)
+	{
+		switch (size.ToLower())
+		{
+			case "large":
+			case "big":
+			case "huge":
+			case "giant":
+				gameObject.transform.localScale = new Vector3(2, 2, 2);
+				break;
+			case "small":
+			case "tiny":
+			case "mini":
+			case "petite":
+				gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+				break;
+			default:
+				gameObject.transform.localScale = new Vector3(1, 1, 1);
+				break;
+		}
+	}
+
+	public void updateStatus(string status)
+	{
+		SpriteRenderer renderer = gameObject.GetComponent<SpriteRenderer>();
+		switch (status.ToLower())
+		{
+			case "poison": case "poisoned":
+				renderer.color = Color.green;
+				break;
+			case "burn": case "burning":
+				renderer.color = Color.red;
+				break;
+			case "freeze": case "frozen":
+				renderer.color = Color.blue;
+				break;
+			case "dead": case "unconscious":
+				renderer.flipY = true;
+				break;
+			default:
+				renderer.flipY = false;
+				renderer.color = Color.white;
+				break;
+		}
+	}
+
 	// Update the rendering of the miniature depending on the attributes assigned to the miniature
 	public void UpdateMiniatureRender()
 	{
-        // Size: Change the scaling of the miniature
-        if (miniatureAttributes.ContainsKey("InputField-Size"))
-        {
-            switch (miniatureAttributes["InputField-Size"])
-            {
-                case "Large":
-                case "Big":
-                case "Huge":
-                case "Giant":
-                    gameObject.transform.localScale = new Vector3(2, 2, 2);
-                    break;
-                case "Small":
-                case "Tiny":
-                case "Mini":
-                case "Petite":
-                    gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-                    break;
-                default:
-                    gameObject.transform.localScale = new Vector3(1, 1, 1);
-                    break;
-            }
-        }
-        else
-        {
-            gameObject.transform.localScale = new Vector3(1, 1, 1);
-        }
-
-        // TODO: Add more dynamic changes
-        if (miniatureAttributes.ContainsKey("InputField-Affliction"))
-        {
-            SpriteRenderer miniRenderer = GetComponent<SpriteRenderer>();
-            Color infect = new Color(204, 0, 255, 1);
-            Color chill = new Color(0, 1f, 1f, 1f);
-            Color unwell = new Color(0.4f, 1, 0.4f, 1f);
-            Color hot = new Color(1f, 0.2f, 0, 1f);
-
-            switch (miniatureAttributes["InputField-Affliction"])
-            {
-                case "Poison":
-                case "poison":
-                    miniRenderer.color = infect;
-                    break;
-                case "Fire":
-                case "fire":
-                case "heat":
-                case "Heat":
-                    miniRenderer.color = hot;
-                    break;
-                case "sick":
-                case "Sick":
-                case "ill":
-                case "Ill":
-                case "illness":
-                case "Illness":
-                    miniRenderer.color = unwell;
-                    break;
-                case "cold":
-                case "Cold":
-                case "frost":
-                case "Frost":
-                    miniRenderer.color = chill;
-                    break;
-                default:
-                    miniRenderer.color = Color.white;
-                    break;
-            }
-        }
-        else {
-            SpriteRenderer miniRenderer = GetComponent<SpriteRenderer>();
-            miniRenderer.color = Color.white;
-        }
-    }
+		foreach (var attribute in miniatureAttributes) {
+			switch (attribute.Key) {
+				case "Name":
+					updateNameTag(attribute.Value);
+					break;
+				case "Size":
+					updateSize(attribute.Value);
+					break;
+				case "Status":
+					updateStatus(attribute.Value);
+					break;
+			}
+		}
+	}
 
 	// Get the id of the prefab
 	public int GetMiniatureId()
 	{
 		return miniatureId;
 	}
+
+	void OnGUI()
+    {
+    	string name = "";
+    	miniatureAttributes.TryGetValue("Name", out name);
+		if (name == "") {
+			return;
+		}
+		SpriteRenderer renderer = gameObject.GetComponent<SpriteRenderer>();
+		Vector2 sprite_location_world = renderer.sprite.rect.position;
+		Vector2 sprite_location_gui = GUIUtility.ScreenToGUIPoint(Camera.current.WorldToScreenPoint(sprite_location_world));
+		float x = sprite_location_world[0],
+			  y = sprite_location_world[1];
+        GUI.Box(new Rect(x, y, 200, 20), new GUIContent(name, name));
+    }
 }

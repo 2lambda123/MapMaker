@@ -76,10 +76,11 @@ public class CanvasManager : MonoBehaviour
 		// Else, load a map from the path file in the player preferences
 		else
 		{
-			saveMenu.WriteResult(mapFilePath);
-			int[,] tiles = saveMenu.Load(mapFilePath);
-			GenerateTilemap(tiles);
-		}
+			saveMenu.Load(mapFilePath);
+            canvasWidth = tilemapArray.GetLength(0);
+            canvasHeight = tilemapArray.GetLength(1);
+            Camera.main.transform.transform.SetPositionAndRotation(new Vector3(2.5f * canvasWidth / 2, 2.5f * canvasHeight / 2, -10), Quaternion.identity);
+        }
 	}
 
 	// === TILEMAP FUNCTIONALITY === //

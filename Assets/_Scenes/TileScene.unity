@@ -586,7 +586,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 14
+  m_fontSize: 15.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1498,7 +1498,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 19
+  m_fontSize: 20.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2739,7 +2739,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 21.1
+  m_fontSize: 23.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4055,7 +4055,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b6b4ead3e1d066459a77eff05ccbeb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  miniaturePrefabs: []
+  miniaturePrefabs:
+  - {fileID: 6623570997606136572, guid: 8a0a1e4aeecd5794a9c53e46858af736, type: 3}
+  - {fileID: 6069558971283696408, guid: 36034b865e783694ea481bf470f13b80, type: 3}
+  - {fileID: 4988157831554826659, guid: 349581004ff355d4dad9d246d2c056e0, type: 3}
+  - {fileID: 3555772391697542271, guid: ca6d37b4a708c2a48ba21554b2ba7e54, type: 3}
+  - {fileID: 1498608065591193220, guid: c527a9dcbc46a364bb6f79ca42786575, type: 3}
+  - {fileID: 8784643788107618384, guid: eab68ba9b340d3149aa3bde2d77a249c, type: 3}
+  - {fileID: 5732425901249644586, guid: cbdc6a490d3df1747a65073eb1fe4cbf, type: 3}
+  - {fileID: 3785669692512031655, guid: 0a934bfa755d04345876f24e6b6d5685, type: 3}
+  - {fileID: 5842766230751001970, guid: a1bf6363108491f4098e6e642005b234, type: 3}
+  - {fileID: 8696622841602109650, guid: cedc54cce6cb25045a79f42e961618f1, type: 3}
+  - {fileID: 3894468428823435915, guid: 5e58fac301c8f9f47979470819773f65, type: 3}
+  - {fileID: 3936206179703016192, guid: 5a046c6869ddd1b44b32efa5e4e07203, type: 3}
+  - {fileID: 3281023610417474330, guid: f671d394f2c247b4d91c051b212911bf, type: 3}
+  - {fileID: 7620203911249283859, guid: ee6b3386706c13f49a84074789ef4bfa, type: 3}
+  - {fileID: 1605496010615429960, guid: 3da1c6a6202ab2e48a607713a658212a, type: 3}
+  - {fileID: 4960018662575226411, guid: 8c197043f0f86274b95e51444be9a11d, type: 3}
+  - {fileID: 4064315068540773664, guid: e14511fa64045ab40bf8cda28d7b1826, type: 3}
+  - {fileID: 1396885835845459139, guid: ea23322f8024d5849acb9bd052ec3186, type: 3}
+  - {fileID: 5919252270967606856, guid: 4770ed92dc97ed9418f3590bdd4d3d75, type: 3}
+  - {fileID: 9096909471781338017, guid: 436808ca3533fd044b75fb5f516a5468, type: 3}
+  - {fileID: 6433521421895254823, guid: 692eac79dd4c54846a38387ef2666f5d, type: 3}
+  - {fileID: 319539678548418446, guid: 8b8ed6ac706bb1444a6028d9a45f8970, type: 3}
+  - {fileID: 7723608396718726800, guid: 772b17abf6e283540803f82c1557b615, type: 3}
+  - {fileID: 7612030416796055089, guid: bfeb815e88c984a43bca0f1621804acf, type: 3}
+  - {fileID: 1256645167359979358, guid: 491c30403483b144bae65152ed837fef, type: 3}
+  - {fileID: 1323316965164115787, guid: 0abf73734c6e4bf45a415628aad4aed3, type: 3}
+  - {fileID: 1857985938644196258, guid: ea5c26ab00a1d134ba7001ea6424fc24, type: 3}
+  - {fileID: 5915813017695017651, guid: 0e3fcdeed00d9e44d893adf72a25e342, type: 3}
+  - {fileID: 4967299512350031442, guid: 91216abd7dd74f04db35eafc7200bc08, type: 3}
+  - {fileID: 7419047351130739758, guid: 7ebc146fcbf41d04eb15e25d11fa4fd5, type: 3}
+  - {fileID: 3257248486550199135, guid: f46001adb98ef6a4ebb5791b462b261f, type: 3}
 --- !u!1 &607126210
 GameObject:
   m_ObjectHideFlags: 0
@@ -6829,7 +6860,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16.1
+  m_fontSize: 17.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8021,7 +8052,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1524769758}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.4355301
+  m_Size: 0.43553
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

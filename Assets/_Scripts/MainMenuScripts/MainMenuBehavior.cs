@@ -1,4 +1,4 @@
-﻿using SFB;
+using SFB;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -63,7 +63,9 @@ public class MainMenuBehavior : MonoBehaviour
 
     private string GetCopyName(string path)
     {
-        return "copy.dat";
+        return System.IO.Path.GetDirectoryName(path) + "/"
+            + System.IO.Path.GetFileNameWithoutExtension(path) + "_copy"
+            + System.IO.Path.GetExtension(path);
     }
 
     public void Rename()
