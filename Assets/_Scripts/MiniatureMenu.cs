@@ -5,7 +5,6 @@ public class MiniatureMenu : MonoBehaviour
     public void updateAttr(string key, string value)
     {
         Miniature mini_script = this.transform.parent.GetComponent<Miniature>();
-        Debug.Log("Updating " + key);
         mini_script.SetAttribute(key, value);
     }
 

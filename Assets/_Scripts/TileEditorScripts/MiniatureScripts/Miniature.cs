@@ -227,7 +227,6 @@ public class Miniature : MonoBehaviour
 	// Update the rendering of the miniature depending on the attributes assigned to the miniature
 	public void UpdateMiniatureRender()
 	{
-		Debug.Log("UPDATING RENDER");
 		foreach (var attribute in miniatureAttributes) {
 			switch (attribute.Key) {
 				case "Name":
@@ -248,4 +247,19 @@ public class Miniature : MonoBehaviour
 	{
 		return miniatureId;
 	}
+
+	void OnGUI()
+    {
+    	string name = "";
+    	miniatureAttributes.TryGetValue("Name", out name);
+		if (name == "") {
+			return;
+		}
+		SpriteRenderer renderer = gameObject.GetComponent<SpriteRenderer>();
+		Vector2 sprite_location_world = renderer.sprite.rect.position;
+		Vector2 sprite_location_gui = GUIUtility.ScreenToGUIPoint(Camera.current.WorldToScreenPoint(sprite_location_world));
+		float x = sprite_location_world[0],
+			  y = sprite_location_world[1];
+        GUI.Box(new Rect(x, y, 200, 20), new GUIContent(name, name));
+    }
 }
