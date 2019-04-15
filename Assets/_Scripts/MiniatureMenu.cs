@@ -1,14 +1,16 @@
 using UnityEngine;
+using TMPro;
 
 public class MiniatureMenu : MonoBehaviour
 {
     public void Awake()
     {
         Miniature mini_script = this.transform.parent.GetComponent<Miniature>();
-        setFieldText("Name", mini_script.GetAttribute("Name"));
-        setFieldText("Size", mini_script.GetAttribute("Size"));
-        setFieldText("HP", mini_script.GetAttribute("HP"));
-        setFieldText("Affliction", mini_script.GetAttribute("Status"));
+        Dictionary<string, string> attributes = mini_script.GetAttributes();
+        setFieldText("Name", attributes["Name"]);
+        setFieldText("Size", attributes["Size"]);
+        setFieldText("HP", attributes["HP"]);
+        setFieldText("Affliction", attributes["Status"]);
     }
 
     private void setFieldText(string field, string value)
