@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Miniature : MonoBehaviour
 {
@@ -16,22 +18,60 @@ public class Miniature : MonoBehaviour
 	[SerializeField]
 	private Vector3 offset;
 	private InputManager inputManager;
+    private CanvasManager canvasManager;
 
 	[Header("Miniature Attributes")]
 	[SerializeField]
 	private int miniatureId = 0;
 	private Dictionary<string, string> miniatureAttributes = new Dictionary<string, string>();
 	private bool visible = false;
-	public GameObject miniMenu;
-	private cameraInteraction cameraMove;
+	private GameObject miniMenu;
+    private GameObject miniName;
+    private TMP_InputField nameMini;
+    private GameObject miniSize;
+    private TMP_InputField sizeOfMini;
+    private GameObject miniHP;
+    private TMP_InputField hPOfMini;
+    private GameObject miniAfflict;
+    private TMP_InputField afflictOfMini;
+    private string miniFieldPath = "MiniatureInfo/Canvas/BackgroundPanel/InputPanel/";
+
+    private cameraInteraction cameraMove;
 
 	// Get the input manager when the miniature is created
 	void Awake()
 	{
 		// Get the reference to the input manager
 		inputManager = GameObject.FindObjectOfType<InputManager>();
-		miniMenu = GameObject.Find("MiniatureInfo");
-		cameraMove = GameObject.Find("Main Camera").GetComponent<cameraInteraction>();
+        canvasManager = GameObject.FindObjectOfType<CanvasManager>();
+
+        // Get reference to UI game object for buttons
+        miniMenu = GameObject.Find("MiniatureInfo");
+        
+        //set up references for input fields
+        miniName = GameObject.Find(miniFieldPath + "InputField-Name");
+        miniSize = GameObject.Find(miniFieldPath + "InputField-Size");
+        miniHP = GameObject.Find(miniFieldPath + "InputField-HP");
+        miniAfflict = GameObject.Find(miniFieldPath + "InputField-Affliction");
+        
+        //make sure mini has these attributes, if name field doesn't exist none of the features should be there.
+        if (miniName != null)
+        {
+            nameMini = miniName.GetComponent<TMP_InputField>();
+            sizeOfMini = miniSize.GetComponent<TMP_InputField>();
+            hPOfMini = miniHP.GetComponent<TMP_InputField>();
+            afflictOfMini = miniAfflict.GetComponent<TMP_InputField>();
+
+            // process of adding a listenering and using delegate found in unity tutorial
+            //add listener for all input fields
+            nameMini.onEndEdit.AddListener(delegate { AddAttribute(nameMini); });
+            sizeOfMini.onEndEdit.AddListener(delegate { AddAttribute(sizeOfMini); });
+            hPOfMini.onEndEdit.AddListener(delegate { AddAttribute(hPOfMini); });
+            afflictOfMini.onEndEdit.AddListener(delegate { AddAttribute(afflictOfMini); });
+        }
+
+
+        cameraMove = GameObject.Find("Main Camera").GetComponent<cameraInteraction>();
 		if (miniMenu != null)
 		{
 			miniMenu.SetActive(visible);
@@ -54,6 +94,12 @@ public class Miniature : MonoBehaviour
 		{
 			miniMenu.SetActive(thisVisible);
 		}
+
+        //if (nameMini.text.Length > 0) {
+          //  string thisText = nameMini.text;
+           // Debug.Log(thisText);
+        //}
+
 	}
 
 	// === Miniature Movement Functionality === //
@@ -118,9 +164,20 @@ public class Miniature : MonoBehaviour
 	}
 
 	// Add an attribute to the miniature
-	public void AddAttribute(string name, string value)
+	public void AddAttribute(TMP_InputField thisField)
 	{
-		miniatureAttributes.Add(name, value);
+        Debug.Log("in add attribute method");
+        string name = thisField.name;
+        Debug.Log(name);
+        string value = thisField.text;
+        if (miniatureAttributes.ContainsKey(name))
+        {
+            miniatureAttributes[name] = value;
+        }
+        else {
+            miniatureAttributes.Add(name, value);
+        }
+        Debug.Log(miniatureAttributes[name]);
 
 		// Attempt to update the rendering of the miniature's sprite
 		UpdateMiniatureRender();
@@ -154,46 +211,90 @@ public class Miniature : MonoBehaviour
 	//delete miniature after pressing "delete button"
 	public void deleteMini()
 	{
-		CanvasManager cm = new CanvasManager();
+		
 		GameObject miniature = this.gameObject;
 		Debug.Log("selected miniature " + miniature);
-		cm.DeleteMiniature(miniature);
+		canvasManager.DeleteMiniature(miniature);
 		Destroy(miniature);
+        setVisible(false);
 
 	}
 
 	// Update the rendering of the miniature depending on the attributes assigned to the miniature
 	public void UpdateMiniatureRender()
 	{
-		// Size: Change the scaling of the miniature
-		if (miniatureAttributes.ContainsKey("Size"))
-		{
-			switch (miniatureAttributes["Size"])
-			{
-				case "Large":
-				case "Big":
-				case "Huge":
-				case "Giant":
-					gameObject.transform.localScale = new Vector3(2, 2, 2);
-					break;
-				case "Small":
-				case "Tiny":
-				case "Mini":
-				case "Petite":
-					gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-					break;
-				default:
-					gameObject.transform.localScale = new Vector3(1, 1, 1);
-					break;
-			}
-		}
-		else
-		{
-			gameObject.transform.localScale = new Vector3(1, 1, 1);
-		}
+        // Size: Change the scaling of the miniature
+        if (miniatureAttributes.ContainsKey("InputField-Size"))
+        {
+            switch (miniatureAttributes["InputField-Size"])
+            {
+                case "Large":
+                case "Big":
+                case "Huge":
+                case "Giant":
+                    gameObject.transform.localScale = new Vector3(2, 2, 2);
+                    break;
+                case "Small":
+                case "Tiny":
+                case "Mini":
+                case "Petite":
+                    gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+                    break;
+                default:
+                    gameObject.transform.localScale = new Vector3(1, 1, 1);
+                    break;
+            }
+        }
+        else
+        {
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
+        }
 
-		// TODO: Add more dynamic changes
-	}
+        // TODO: Add more dynamic changes
+        if (miniatureAttributes.ContainsKey("InputField-Affliction"))
+        {
+            SpriteRenderer miniRenderer = GetComponent<SpriteRenderer>();
+            Color infect = new Color(204, 0, 255, 1);
+            Color chill = new Color(0, 1f, 1f, 1f);
+            Color unwell = new Color(0.4f, 1, 0.4f, 1f);
+            Color hot = new Color(1f, 0.2f, 0, 1f);
+
+            switch (miniatureAttributes["InputField-Affliction"])
+            {
+                case "Poison":
+                case "poison":
+                    miniRenderer.color = infect;
+                    break;
+                case "Fire":
+                case "fire":
+                case "heat":
+                case "Heat":
+                    miniRenderer.color = hot;
+                    break;
+                case "sick":
+                case "Sick":
+                case "ill":
+                case "Ill":
+                case "illness":
+                case "Illness":
+                    miniRenderer.color = unwell;
+                    break;
+                case "cold":
+                case "Cold":
+                case "frost":
+                case "Frost":
+                    miniRenderer.color = chill;
+                    break;
+                default:
+                    miniRenderer.color = Color.white;
+                    break;
+            }
+        }
+        else {
+            SpriteRenderer miniRenderer = GetComponent<SpriteRenderer>();
+            miniRenderer.color = Color.white;
+        }
+    }
 
 	// Get the id of the prefab
 	public int GetMiniatureId()
