@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -7,18 +9,26 @@ public class MiniatureMenu : MonoBehaviour
     {
         Miniature mini_script = this.transform.parent.GetComponent<Miniature>();
         Dictionary<string, string> attributes = mini_script.GetAttributes();
-        setFieldText("Name", attributes["Name"]);
-        setFieldText("Size", attributes["Size"]);
-        setFieldText("HP", attributes["HP"]);
-        setFieldText("Affliction", attributes["Status"]);
+        string name = "",
+            size = "",
+            hp = "",
+            status = "";
+        attributes.TryGetValue("Name", out name);
+        attributes.TryGetValue("Size", out size);
+        attributes.TryGetValue("HP", out hp);
+        attributes.TryGetValue("Status", out status);
+        setFieldText("Name", name);
+        setFieldText("Size", size);
+        setFieldText("HP", hp);
+        setFieldText("Affliction", status);
     }
 
     private void setFieldText(string field, string value)
     {
-        TMP_InputField field = GameObject.Find(
+        TMP_InputField input_field = GameObject.Find(
             "Canvas/BackgroundPanel/InputPanel/InputField-" + field
         ).GetComponent<TMP_InputField>();
-        field.richText = value;
+        input_field.text = value;
     }
 
     public void updateAttr(string key, string value)
