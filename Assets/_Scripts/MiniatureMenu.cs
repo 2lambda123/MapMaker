@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class MiniatureMenu : MonoBehaviour
 {
-    Miniature mini = this.transform.parent.gameObject;
-
     public void updateAttr(string key, string value)
     {
-        mini.setAttribute(key, value);
+        Miniature mini_script = this.transform.parent.GetComponent<Miniature>();
+        Debug.Log("Updating " + key);
+        mini_script.SetAttribute(key, value);
     }
 
     public void updateName(string value)

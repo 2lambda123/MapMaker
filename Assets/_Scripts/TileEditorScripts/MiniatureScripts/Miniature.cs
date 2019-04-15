@@ -128,6 +128,12 @@ public class Miniature : MonoBehaviour
 		UpdateMiniatureRender();
 	}
 
+	public void SetAttribute(string name, string value)
+	{
+		miniatureAttributes[name] = value;
+		UpdateMiniatureRender();
+	}
+
 	// Remove an attribute from the miniature
 	public void RemoveAttribute(string name)
 	{
@@ -166,6 +172,10 @@ public class Miniature : MonoBehaviour
 
 	public void updateNameTag(string name)
 	{
+		if (name == "") {
+		}
+		else {
+		}
 	}
 
 	public void updateSize(string size)
@@ -206,6 +216,10 @@ public class Miniature : MonoBehaviour
 				break;
 			case "dead": case "unconscious":
 				renderer.flipY = true;
+				break;
+			default:
+				renderer.flipY = false;
+				renderer.color = Color.white;
 				break;
 		}
 	}
