@@ -36,6 +36,7 @@ public class Miniature : MonoBehaviour
 		{
 			miniMenu.SetActive(visible);
 		}
+		UpdateMiniatureRender();
 	}
 
 	// Update is called once per frame
@@ -109,6 +110,7 @@ public class Miniature : MonoBehaviour
 	public void SetAttributes(Dictionary<string, string> attributes)
 	{
 		miniatureAttributes = attributes;
+		UpdateMiniatureRender();
 	}
 
 	// Get the attributes of the miniature
@@ -162,37 +164,69 @@ public class Miniature : MonoBehaviour
 
 	}
 
+	public void updateNameTag(string name)
+	{
+	}
+
+	public void updateSize(string size)
+	{
+		switch (size.ToLower())
+		{
+			case "large":
+			case "big":
+			case "huge":
+			case "giant":
+				gameObject.transform.localScale = new Vector3(2, 2, 2);
+				break;
+			case "small":
+			case "tiny":
+			case "mini":
+			case "petite":
+				gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+				break;
+			default:
+				gameObject.transform.localScale = new Vector3(1, 1, 1);
+				break;
+		}
+	}
+
+	public void updateStatus(string status)
+	{
+		SpriteRenderer renderer = gameObject.GetComponent<SpriteRenderer>();
+		switch (status.ToLower())
+		{
+			case "poison": case "poisoned":
+				renderer.color = Color.green;
+				break;
+			case "burn": case "burning":
+				renderer.color = Color.red;
+				break;
+			case "freeze": case "frozen":
+				renderer.color = Color.blue;
+				break;
+			case "dead": case "unconscious":
+				renderer.flipY = true;
+				break;
+		}
+	}
+
 	// Update the rendering of the miniature depending on the attributes assigned to the miniature
 	public void UpdateMiniatureRender()
 	{
-		// Size: Change the scaling of the miniature
-		if (miniatureAttributes.ContainsKey("Size"))
-		{
-			switch (miniatureAttributes["Size"])
-			{
-				case "Large":
-				case "Big":
-				case "Huge":
-				case "Giant":
-					gameObject.transform.localScale = new Vector3(2, 2, 2);
+		Debug.Log("UPDATING RENDER");
+		foreach (var attribute in miniatureAttributes) {
+			switch (attribute.Key) {
+				case "Name":
+					updateNameTag(attribute.Value);
 					break;
-				case "Small":
-				case "Tiny":
-				case "Mini":
-				case "Petite":
-					gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+				case "Size":
+					updateSize(attribute.Value);
 					break;
-				default:
-					gameObject.transform.localScale = new Vector3(1, 1, 1);
+				case "Status":
+					updateStatus(attribute.Value);
 					break;
 			}
 		}
-		else
-		{
-			gameObject.transform.localScale = new Vector3(1, 1, 1);
-		}
-
-		// TODO: Add more dynamic changes
 	}
 
 	// Get the id of the prefab
