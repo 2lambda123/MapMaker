@@ -2,7 +2,7 @@
 
 Map Making Program in Unity3D for Software Engineering Course (CECS 550)
 
-A windows executable for the current version of the application is provided in the folder "build/windows"
+**A windows executable for the current version of the application is provided in the folder "build/windows"**
 
 Team Members:
 - Nate
